@@ -11,10 +11,10 @@ In this project, I am working on various Data Structure techniques's questions a
 
 - In this project, I am also trying to write programs to build a good project using Data Structure and algorithms.
 
-## Using programming languages
+## Using programming language
 
-- Python
-- Java 
+- Python 
+- Java <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
 
 ## Objective ✍️
 
