@@ -13,7 +13,7 @@ In this project, I am working on various Data Structure techniques's questions a
 
 ## Using programming language
 
-- Python <a href="https://www.python.com" target="_blank" rel="noreferrer"> <img src="file:///C:/Users/abhay/Downloads/python-svgrepo-com.svg" alt="java" width="40" height="40"/>
+- Python <a href="https://www.python.com" target="_blank" rel="noreferrer"> <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg" alt="java" width="20" height="20"/>
 
 - Java <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="20" height="20"/>
 
