@@ -11,6 +11,11 @@ In this project, I am working on various Data Structure techniques's questions a
 
 - In this project, I am also trying to write programs to build a good project using Data Structure and algorithms.
 
+## Using programming languages
+
+- Python
+- Java 
+
 ## Objective ✍️
 
 - Make an effort to learn Array, List, sorting, Stack, Queue, Tree, Graph and more. 
