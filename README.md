@@ -9,7 +9,7 @@ So we must have good knowledge about data structures.
 
 In this project, I am working on various Data Structure techniques's questions and problems. I aim to learn new solutions and tackle Data Structure in different programming languages challenges ranging from basic to advanced levels. I am also utilizing algorithms for some of these problems. Additionally, I am trying to learn how to solve more complex problems and apply these skills to real-world scenarios.
 
-- In this project, I am also trying to write programs to build a good project using Data Structure and algorithms.
+[ In this project, I am also trying to write programs to build a good project using Data Structure and algorithms. ]
 
 ## Using programming language
 
@@ -17,7 +17,7 @@ In this project, I am working on various Data Structure techniques's questions a
 
 - Java <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="20" height="20"/>
 
-## Objective ✍️
+## Objective✍️
 
 - Make an effort to learn Array, List, sorting, Stack, Queue, Tree, Graph and more. 
 - Upskill myself with new technology.
@@ -31,7 +31,7 @@ I aim to learn new solutions and tackle Data Structure methods programming chall
 
 ## Thank you for visiting this repository😊
 
-- Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
+Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
 
 
 
