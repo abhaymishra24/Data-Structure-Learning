@@ -1,2 +1,4 @@
 
-# Problem number 1 - 
+# Problem number 1 - Array method 
+# Data Structure problem in Array 
+
