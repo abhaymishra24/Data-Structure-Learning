@@ -1,4 +1,5 @@
 
+# we solve a leet problem here -
 
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
@@ -12,3 +13,4 @@ class Solution:
                 n -= 1
         
         return n <= 0
+    
