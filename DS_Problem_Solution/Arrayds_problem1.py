@@ -21,3 +21,4 @@ i=0
 while i<len(a1):
     print(a1[i])
     i+=1
+    
