@@ -67,3 +67,22 @@ pn = Person("Road","Bed", "Chawal,daal,roti and salad at a one time")
 pn.p_run(1,1)
 pn.p_slp(4,4)
 pn.p_eat()
+
+# Number 4-
+
+class Numberprint:
+
+    def __init__(self):
+         self.number=[ 
+             [1],
+             [2, 3],
+             [4, 5, 6]
+         ]
+
+    def print_number(self):
+        for row in self.number:
+            print(" ".join(map(str, row)))
+
+pnt= Numberprint()
+pnt.print_number()
+
