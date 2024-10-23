@@ -46,3 +46,24 @@ mb.p_movie()
 
 # Number 3-
 
+class Person:
+
+    def __init__(self, run, slp, eat):
+         self.run=run 
+         self.slp=slp
+         self.eat=eat
+
+    def p_run(self,a,b):
+        print(f"Ramesh can run by {a+b} km per/h and run at {self.run}")
+
+    def p_slp(self,a,b):
+        print(f"Ramesh can sleep around {a+b} h/perday and sleep on {self.slp}")
+
+    def p_eat(self):
+        print(f"Ramesh can eat {self.eat}")
+
+pn = Person("Road","Bed", "Chawal,daal,roti and salad at a one time")
+
+pn.p_run(1,1)
+pn.p_slp(4,4)
+pn.p_eat()
