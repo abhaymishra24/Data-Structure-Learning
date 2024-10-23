@@ -1,4 +1,6 @@
 
+# Here I solved five practice queation using Oops concepts basic.
+
 # Number 1-
 
 class Number:
