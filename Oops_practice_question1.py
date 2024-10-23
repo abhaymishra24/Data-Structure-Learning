@@ -9,7 +9,6 @@ class Number:
     def subt(self,c,d):
         print(f"subtraction of value is:{c-d}")
          
-
 num = Number()
 print(num.plus(4, 7))
 print(num.subt(4, 4))
@@ -43,4 +42,7 @@ mb=Phone("Caller", "Spotify","Netflix")
 mb.c_call()
 mb.p_music()
 mb.p_movie()
- 
+
+
+# Number 3-
+
