@@ -86,3 +86,40 @@ class Numberprint:
 pnt= Numberprint()
 pnt.print_number()
 
+
+# Number 5-
+
+class TwoSum:
+    def __init__(self, nums):
+        self.nums = nums
+
+    def find_indices(self, target):
+        # Create a dictionary to store the numbers and their indices
+        num_to_index = {}
+        
+        for index, num in enumerate(self.nums):
+            complement = target - num
+            
+            # Check if the complement exists in the dictionary
+            if complement in num_to_index:
+                return [num_to_index[complement], index]
+            
+            # Store the number and its index in the dictionary
+            num_to_index[num] = index
+        
+        return None  # Return None if no solution is found
+
+# Example usage
+nums = [3, 2, 4]
+target = 6
+
+# Create an instance of TwoSum
+two_sum_instance = TwoSum(nums)
+
+# Find and print the indices
+result = two_sum_instance.find_indices(target)
+
+# Output: [1, 2]
+print(result)  
+
+ 
