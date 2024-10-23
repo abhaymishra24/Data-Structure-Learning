@@ -123,5 +123,3 @@ result = two_sum_instance.find_indices(target)
 
 # Output: [1, 2]
 print(result)  
-
- 
