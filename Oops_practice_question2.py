@@ -19,4 +19,20 @@ class Payment:
 p=Payment(50)
 p.pay_money()
 p.greet()
+
+# here very basic question-
+
+class number:
+    def a_number(self, l1, l2):
+
+        self.l1=l1
+        self.l2=l2
+
+    def add(self):
+        print(f"sum is {self.l1+self.l2}")
+
+n=number()
+n.a_number(6,7)
+n.add()
+
          
