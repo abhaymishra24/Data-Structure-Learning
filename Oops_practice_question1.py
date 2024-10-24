@@ -128,6 +128,8 @@ print(result)
 
 # Here is also number six 6 -
 
+# Number 6-
+
 
 class Cal_number:
 
@@ -159,3 +161,5 @@ n.d_number(10,5)
 # Here I solve some basic question on oops concepts 
 
 # Here End 1 to 6 questions and thier solutions.
+
+# To be continue
