@@ -1,5 +1,7 @@
 
-# Here I solved five practice queation using Oops concepts basic.
+# Here I solve basic queations using python oops-
+
+# Start from Here 1 to 5-
 
 # Number 1-
 
@@ -16,7 +18,7 @@ print(num.plus(4, 7))
 print(num.subt(4, 4))
 
 
-# Number 2
+# Number 2-
 
 class Phone:
 
@@ -123,3 +125,8 @@ result = two_sum_instance.find_indices(target)
 
 # Output: [1, 2]
 print(result)  
+
+
+# Here I solve some basic question on oops concepts 
+
+# Here End 1 to 5 questions and thier solutions.
