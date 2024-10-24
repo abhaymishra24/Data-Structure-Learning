@@ -1,7 +1,7 @@
 
-# Here I solve basic queations using python oops-
+# Here I solve some basic queations using python oops concepts-
 
-# Start from Here 1 to 6-
+# Start from Here 1 to (to be continue)
 
 # Number 1-
 
@@ -19,6 +19,7 @@ print(num.subt(4, 4))
 
 
 # Number 2-
+
 
 class Phone:
 
@@ -71,6 +72,7 @@ pn = Person("Road","Bed", "Chawal,daal,roti and salad at a one time")
 pn.p_run(1,1)
 pn.p_slp(4,4)
 pn.p_eat()
+
 
 # Number 4-
 
@@ -126,7 +128,7 @@ result = two_sum_instance.find_indices(target)
 # Output: [1, 2]
 print(result)  
 
-# Here is also number six 6 -
+
 
 # Number 6-
 
@@ -157,9 +159,6 @@ n.p_number(5,6)
 n.d_number(10,5)
 
 
-
 # Here I solve some basic question on oops concepts 
-
-# Here End 1 to 6 questions and thier solutions.
 
 # To be continue
