@@ -109,6 +109,7 @@ mylist.print_list()
 mylist.delete_item(2)
 for x in mylist:
     print(x,end=" ")
+    
  
 
  
