@@ -1,4 +1,10 @@
 
+# Here solving basic to advance question on Oops concepts-
+
+# Start from here
+
+# Question 1 on payment transction voic notes 
+
 class Payment:
 
     def __init__(self,ammount):
