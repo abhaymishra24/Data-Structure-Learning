@@ -1,7 +1,7 @@
 
 # Here I solve basic queations using python oops-
 
-# Start from Here 1 to 5-
+# Start from Here 1 to 6-
 
 # Number 1-
 
@@ -126,7 +126,36 @@ result = two_sum_instance.find_indices(target)
 # Output: [1, 2]
 print(result)  
 
+# Here is also number six 6 -
+
+
+class Cal_number:
+
+    def __init__(self, d, s):
+        self.d = d
+        self.s = s
+
+    def a_number(self,a,b):
+        print(f"{a+b} this is combine number {self.d}")
+    
+    def s_number(self,a,b):
+        print(f"{a-b} this is not combine number {self.s}")
+    
+    def p_number(self,a,b):
+        print(f"{a*b} this is double numbe {self.d}")
+    
+    def d_number(self,a,b):
+        print(f"{a/b} this is half of number {self.s}")
+    
+
+n = Cal_number("Given value", "Taken value")
+n.a_number(4,5)
+n.s_number(16,4)
+n.p_number(5,6)
+n.d_number(10,5)
+
+
 
 # Here I solve some basic question on oops concepts 
 
-# Here End 1 to 5 questions and thier solutions.
+# Here End 1 to 6 questions and thier solutions.
