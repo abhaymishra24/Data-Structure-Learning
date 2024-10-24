@@ -79,6 +79,23 @@ class SLL:
                       if temp.next.item==data:
                           temp.next=temp.next.next
                           break
+                      temp=temp.next
+
+    def __iter__(self):
+        return SLLIterable(self.start) 
+
+class SLLIterable:
+    def __init__(self,start):
+         self.current=start
+
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if not self.current:
+            raise StopIteration
+        data=self.current.next
+        return data
                 
 
 mylist=SLL()
@@ -89,6 +106,14 @@ mylist.insert_at_start(1)
 mylist.insert_at_last(20)
 mylist.insert_after(mylist.search(3),4)
 mylist.print_list()
+mylist.delete_item(2)
+for x in mylist:
+    print(x,end=" ")
+ 
+
+ 
+ 
                    
+
 
 
