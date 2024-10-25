@@ -35,4 +35,20 @@ n=number()
 n.a_number(6,7)
 n.add()
 
+# Here solve another oops concepts questions - 
+
+class City:
+
+    def __init__(self, area,toarea, Number):
+        self.area=area
+        self.toarea=toarea
+        self.Number=Number
+
+    def bus_time(self,n):
+        print(f"this {self.Number} bus from {self.area} to {self.toarea} at {n} will go")
+        print(f"Number = {self.Number}")
+
+    
+c = City("Ashok Nager", "Indira Nager", "224")
+c.bus_time(f"{4}pm")
          
