@@ -7,4 +7,8 @@ class Node:
         self.item = item
         self.next = next
 
-        
+class DLL:
+    def __init__(self,start=None):
+        self.start = start 
+
+         
