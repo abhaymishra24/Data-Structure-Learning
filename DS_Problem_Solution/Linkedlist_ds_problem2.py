@@ -11,4 +11,9 @@ class DLL:
     def __init__(self,start=None):
         self.start = start 
 
+    def is_empty(self):
+        return self.start == None
+    
+    
+
          
