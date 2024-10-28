@@ -235,9 +235,4 @@ mydlsit.insert_after(mydlsit.search(10), 15)
 # Print the list using the iterator
 for x in mydlsit:
     print(x, end=' ')
-print()
-    
-
-    
-    
-       
+print()   
