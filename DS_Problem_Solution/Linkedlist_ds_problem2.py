@@ -112,7 +112,7 @@ class DLLIterator:
     print()
 
 
-# Here correct version of code - Please check what is the issue in previous question .
+# Here correct version of upper code - Please check what is the issue in previous question .
 
 
 class Node:
