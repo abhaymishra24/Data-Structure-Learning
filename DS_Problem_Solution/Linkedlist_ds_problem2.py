@@ -13,6 +13,4 @@ class DLL:
 
     def is_empty(self):
         return self.start == None
-    
-    
-         
+       

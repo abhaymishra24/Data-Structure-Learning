@@ -113,9 +113,9 @@ mylist.delete_item(2)
 for x in mylist:
     print(x,end=" ")
 
+                                     ### [Leetcode Question] ###
 
 # Here a Question base of Linked lis which is leetcode question-
-
 
 class ListNode:
     def __init__(self, val=0, next=None):
