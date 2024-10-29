@@ -114,7 +114,6 @@ class DLLIterator:
 
 # Here correct version of upper code - Please check what is the issue in previous question .
 
-
 class Node:
     def __init__(self, prev=None, item=None, next=None):
         self.prev = prev
