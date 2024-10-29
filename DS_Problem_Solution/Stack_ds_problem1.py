@@ -36,6 +36,3 @@ print("Removed item:", s1.pop())
 print("top element:", s1.peek())
 print("Size of elemnt:", s1.size())
 print()
-
-
-    
