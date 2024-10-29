@@ -110,7 +110,7 @@ for x in mylist:
 
 # Here correct version of upper code - Please check what is the issue in previous question .
 
-class Node:
+# class Node:
     def __init__(self, item=None, next=None):
         self.item = item
         self.next = next
