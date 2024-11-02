@@ -40,4 +40,3 @@ print()
 # Second question of stack-
 
 class Stack:
-     
