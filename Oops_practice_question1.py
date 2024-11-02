@@ -20,7 +20,6 @@ print(num.subt(4, 4))
 
 # Number 2-
 
-
 class Phone:
 
     def __init__(self,call, music, movie):
@@ -129,7 +128,6 @@ result = two_sum_instance.find_indices(target)
 print(result)  
 
 
-
 # Number 6-
 
 
@@ -157,7 +155,6 @@ n.a_number(4,5)
 n.s_number(16,4)
 n.p_number(5,6)
 n.d_number(10,5)
-
 
 # Here I solve some basic question on oops concepts 
 
