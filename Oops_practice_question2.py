@@ -50,5 +50,4 @@ class City:
 
     
 c = City("Ashok Nager", "Indira Nager", "224")
-c.bus_time(f"{4}pm")
-         
+c.bus_time(f"{4}pm")      
