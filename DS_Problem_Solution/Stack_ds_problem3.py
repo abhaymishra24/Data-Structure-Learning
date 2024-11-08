@@ -25,7 +25,4 @@ class Stack:
             raise IndexError("Stack is empty")
         
     def size(self):
-        return len(self.item())
-    
-
-         
+        return len(self.item())     
