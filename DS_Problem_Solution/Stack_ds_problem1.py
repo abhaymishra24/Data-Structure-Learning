@@ -37,7 +37,7 @@
 # print("Size of elemnt:", s1.size())
 # print()
 
-# Second question of stack-
+# Second time same code try by  myself of stack-
 
 class Stack:
     
@@ -69,7 +69,12 @@ s = Stack()
 s.push(10)
 s.push(20)
 s.push(30)
-print()
+print(s.size())
+print(s.peek())
+print(s.pop())
+print(s.peek())
+print(s.is_empty())
+
 
   
               
