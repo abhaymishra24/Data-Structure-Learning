@@ -54,7 +54,7 @@ class Stack(list):                         # define the class stack with that pa
     def size(self):                      # define size function for check the elements size of list
         return len(self)
     
-    def insert(self, index, data):       # define insert for not implement the insert function by itself 
+    def insert(self, index, data):       # define insert for not implement the insert method by itself or user
         raise AttributeError("No elements")
     
 s1= Stack()                               # here s1 assign with stack object
@@ -65,6 +65,3 @@ print("top elements=", s1.peek())         # here we can see top value of list by
 print(s1.size())                          # here we can see the size of list by using size function
 print(s1.pop())                           # here we can delete the top value by using pop function 
 print("top elements=", s1.peek())         # here we again see the top value by peek function
-
-
-
