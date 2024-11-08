@@ -47,11 +47,8 @@ class Stack:
     def is_empty(self):
          return len(self.item)==0
     
-    def push(self, data):
-         if not self.is_empty():
-              self.item.append(data)
-         else:
-              raise IndexError("list is empty")
+    def push(self,data):
+         self.item.append(data)
          
     def  pop(self):
          if not self.is_empty():
