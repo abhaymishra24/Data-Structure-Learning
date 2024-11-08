@@ -38,3 +38,6 @@ print("Size of elemnt:", s1.size())
 print()
 
 # Second question of stack-
+
+class Stack:
+     
