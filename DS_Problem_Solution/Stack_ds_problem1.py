@@ -43,5 +43,7 @@ class Stack:
     
     def __init__(self):
          self.item=[]
+    def is_empty(self):
+         return self.item()
 
      
