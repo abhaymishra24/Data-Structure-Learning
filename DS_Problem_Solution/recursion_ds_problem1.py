@@ -61,6 +61,4 @@ def factSq(n):
         return 1
     return n*n + factSq(n-1)
 
-
-
-print(factSq(5))
+print("print the answer = ",factSq(5))
