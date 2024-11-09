@@ -47,8 +47,20 @@ def sumodd(n):
     return 2*n-1 + sumodd(n-1)
 
 def sumeven(n):
-    if n==1:
-        return 1
+    if n==0:
+        return 0
     return 2*n + sumeven(n-1)
 
-print(sumodd(10))
+def fact(n):
+    if n==1:
+        return 1
+    return n * fact(n-1)
+
+def factSq(n):
+    if n==1:
+        return 1
+    return n*n + factSq(n-1)
+
+
+
+print(factSq(5))
