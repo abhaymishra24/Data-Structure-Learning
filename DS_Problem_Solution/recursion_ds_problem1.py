@@ -66,34 +66,35 @@
 # Given an array arr[] of size n and an integer sum. Find if there’s a triplet in the array which sums up to the given integer sum.
 
 # Function to find a triplet with a given sum in an array
-# def find3Numbers(arr, sum):
-#     n = len(arr)
 
-#     # Fix the first element as arr[i]
-#     for i in range(n - 2):
+def find3Numbers(arr, sum):
+    n = len(arr)
 
-#         # Fix the second element as arr[j]
-#         for j in range(i + 1, n - 1):
+    # Fix the first element as arr[i]
+    for i in range(n - 2):
 
-#             # Now look for the third number
-#             for k in range(j + 1, n):
+        # Fix the second element as arr[j]
+        for j in range(i + 1, n - 1):
 
-#                 if arr[i] + arr[j] + arr[k] == sum:
+            # Now look for the third number
+            for k in range(j + 1, n):
 
-#                     # Triplet is found; print the triplet elements
-#                     print(f"Triplet is {arr[i]}, {arr[j]}, {arr[k]}")
-#                     return True
+                if arr[i] + arr[j] + arr[k] == sum:
 
-#     # If no triplet is found, return false
-#     return False
+                    # Triplet is found; print the triplet elements
+                    print(f"Triplet is {arr[i]}, {arr[j]}, {arr[k]}")
+                    return True
 
-# # Driver code
-# arr = [1, 4, 45, 6, 10, 8]
-# sum = 22
+    # If no triplet is found, return false
+    return False
 
-# find3Numbers(arr, sum)
+# Driver code
+arr = [1, 4, 45, 6, 10, 8]
+sum = 22
 
-# here solve by this triplet sum of array - 
+find3Numbers(arr, sum)
+
+# here solve same question by me this triplet sum of array - 
 
 def number3sum(arr, sum):
     n = len(arr)
