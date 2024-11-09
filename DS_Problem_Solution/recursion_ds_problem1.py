@@ -63,6 +63,7 @@ def factSq(n):
 
 print("print the answer = ",factSq(5))
 
+
 # Given an array arr[] of size n and an integer sum. Find if there’s a triplet in the array which sums up to the given integer sum.
 
 # Function to find a triplet with a given sum in an array
@@ -94,7 +95,8 @@ sum = 22
 
 find3Numbers(arr, sum)
 
-# here solve same question by me this triplet sum of array - 
+
+# Here solve same question by me this triplet sum of array - 
 
 def number3sum(arr, sum):                     # here first we define function and give two argument according question
     n = len(arr)                                 # here we find the length of arr
