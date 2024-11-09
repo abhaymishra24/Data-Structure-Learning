@@ -63,8 +63,10 @@ class Stack:
     def __init__(self):
          self.start=None
          self.item_count=0
+
     def is_empty(self):
-        return self.start.item==None
+        return self.start==None
+    
     def push(self, data):
         n= Node(data, self.start)
         self.start=n
@@ -73,10 +75,10 @@ class Stack:
     def pop(self):
         if not self.is_empty():
             data=self.start.item
-            self.start=self.start.item
+            self.start=self.start.next
             self.item_count-=1
         else:
-            raise self.is_empty()
+            raise IndexError("Stack is none")
         
     def peek(self):
         if not self.is_empty():
@@ -94,6 +96,7 @@ s2.push(0)
 print("len of elements is = ", s2.size())
 print("top elements of stack = ", s2.peek())
 print("delete a value from stack = ", s2.pop())
-
+print("top value again is = ",s2.peek())
+print("size of elements is = ", s2.size())
             
         
