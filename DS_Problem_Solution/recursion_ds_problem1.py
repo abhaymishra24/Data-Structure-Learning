@@ -96,23 +96,23 @@ find3Numbers(arr, sum)
 
 # here solve same question by me this triplet sum of array - 
 
-def number3sum(arr, sum):
-    n = len(arr)
+def number3sum(arr, sum):                     # here first we define function and give two argument according question
+    n = len(arr)                                 # here we find the length of arr
 
-    for i in range (n-2):
+    for i in range (n-2):                        # here we put itteration for check first number of triplet
         
-        for j in range (i+1, n-1):
+        for j in range (i+1, n-1):                 # here we put itteration for check second number of triplet
 
-            for k in range (j+1, n):
+            for k in range (j+1, n):                 # here we put itteration for check third number of triplet
 
-                if arr[i] + arr[j] + arr[k] == sum:
+                if arr[i] + arr[j] + arr[k] == sum:    # here we give condition for check the sum of triple number equal to given value
 
-                    print(f"triplet number:{arr[i]},{arr[j]},{arr[k]}")
+                    print(f"triplet number:{arr[i]},{arr[j]},{arr[k]}")           # here print the number of triple number
                     return True
     
     return False
 
-arr=[1, 4, 45, 6, 10, 8]
-sum = 22
+arr=[1, 4, 45, 6, 10, 8]                                    # give the number 
+sum = 22                                                    # give the value of sum
 
-number3sum(arr, sum)
+number3sum(arr, sum)                                        # call the function for answer 
