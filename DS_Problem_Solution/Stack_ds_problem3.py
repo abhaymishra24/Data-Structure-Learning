@@ -10,25 +10,31 @@ class Node:
 class Stack:
 
     def __init__(self,item):
-        self.item=item()
+        self.start=None
+        self.item_count=0
 
     def is_empty(self):
-        return len(self.item)==0
+        return self.start==None
     
     def push(self,data):
-        return self.item.append(data)
+        n = Node(self, data)
+        self.start=n
+        self.item_count+=1 
     
     def pop(self):
         if not self.is_empty():
-            return self.item.pop()
+            data= self.start.item
+            self.start=self.start.next
+            self.item_count-=1
+            return data
         else:
             raise IndexError("Stack is empty")
         
     def peek(self):
         if not self.is_empty():
-            return self.item[-1]
+            return self.start.item
         else:
-            raise IndexError("Stack is empty")
+            raise self.is_empty()
         
     def size(self):
-        return len(self.item())     
+        return self.item_count      
