@@ -9,7 +9,7 @@ class Node:
 
 class Stack:
 
-    def __init__(self,item):
+    def __init__(self):
         self.start=None
         self.item_count=0
 
@@ -17,7 +17,7 @@ class Stack:
         return self.start==None
     
     def push(self,data):
-        n = Node(self, data)
+        n = Node(data, self.start)
         self.start=n
         self.item_count+=1 
     
@@ -37,4 +37,15 @@ class Stack:
             raise self.is_empty()
         
     def size(self):
-        return self.item_count      
+        return self.item_count     
+
+s2=Stack()
+s2.push(5)
+s2.push(6)
+s2.push(7)
+print("total elemnts=", s2.size())
+print("top value=", s2.peek())
+print("remove top value=", s2.pop())
+print("total elements again=", s2.size())
+print("top value again=", s2.peek())
+
