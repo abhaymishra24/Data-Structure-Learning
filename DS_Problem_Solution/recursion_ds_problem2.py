@@ -23,8 +23,4 @@ def sum(nums, target):
 nums=[4,6,7,8]
 target=10
 result=(sum(nums,target))
-print(result)
-
-
-
-    
+print(result)   
