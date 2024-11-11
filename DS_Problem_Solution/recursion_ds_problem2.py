@@ -25,6 +25,10 @@ target=10
 result=(sum(nums,target))
 print(result)   
 
+
+# Here we solve best time to sell stock using recursion function (leetcode question)
+
+
 def max_profit(prices):
     # Helper function for recursion
     def helper(day, holding):
@@ -53,3 +57,5 @@ def max_profit(prices):
 # Example usage:
 prices = [7, 1, 5, 3, 6, 4]
 print("Maximum Profit:", max_profit(prices))
+
+
