@@ -1,11 +1,11 @@
 
 # Here we solve two sum of given number - 
 
-# def sum(a,b):
+def sum(a,b):
 
-#     print(a+b)
+    print(a+b)
 
-# sum(5,6)
+sum(5,6)
 
 def sum(nums, target):
     
@@ -24,5 +24,7 @@ nums=[4,6,7,8]
 target=10
 result=(sum(nums,target))
 print(result)
+
+
 
     
