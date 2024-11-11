@@ -119,3 +119,22 @@ sum = 22                                                    # give the value of 
 
 number3sum(arr, sum)                                        # call the function for answer 
 
+# Here solve once again this triplet problem - 
+
+def triplet(arr, sum):
+    n=len(arr)
+
+    for i in range(n-2):
+
+        for j in range(i+1,n-1):
+
+            for k in range(j+1, n):
+
+                if arr[i]+arr[j]+arr[k]==sum:
+                    return True
+    
+    return False
+
+arr = [2,4,5,6,7,9,2]
+sum=16
+triplet(sum, arr)
