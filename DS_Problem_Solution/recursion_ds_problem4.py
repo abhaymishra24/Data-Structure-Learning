@@ -1,6 +1,8 @@
 
 # Function to find and print longest 
-# substring without repeating characters. 
+# substring without repeating characters.
+
+
 def findLongestSubstring(string):
  
     n = len(string) 
@@ -71,5 +73,4 @@ if __name__ == "__main__":
  
     string = "GEEKSFORGEEKS"
     print(findLongestSubstring(string)) 
- 
  

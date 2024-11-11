@@ -30,6 +30,35 @@ if __name__ == "__main__":
     s = "geeksforgeeks"
     print(longestUniqueSubstr(s))
 
+# Here we try once again this code by itself - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # class Solution:
 #     def maxProfit(self, prices: List[int]) -> int:
