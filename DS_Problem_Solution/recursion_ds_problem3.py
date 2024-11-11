@@ -69,6 +69,3 @@ if __name__ == "__main__":
 #                 profit += prices[i] - prices[i-1]
         
 #         return profit
-
-
-
