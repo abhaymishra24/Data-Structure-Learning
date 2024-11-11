@@ -33,27 +33,6 @@
 # Here we try once again this code by itself - 
 
 
-def triplet(arr, sum):
-    n = len(arr)
-
-    for i in range(n-2):
-
-        for j in range(i+1,n-1):
-
-            for k in range(j+1, n):
-
-                if arr[i]+arr[j]+arr[k]==sum:
-
-                    print(f"the number is:{arr[i]},{arr[j]},{arr[k]}")
-                    return True
-    
-    return False
-
-arr = [2,4,5,6,7,9,2]
-sum=16
-triplet(arr, sum)
-
-
 
 
 
