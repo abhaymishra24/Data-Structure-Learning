@@ -32,29 +32,53 @@
 
 # Here we try once again this code by itself - 3
 
-def longss(s):
+# def longss(s):
+#     n=len(s)
+#     res = 0
+
+#     for i in range(n):
+
+#         visited=[False]*256
+
+#         for j in range(i,n):
+
+#             if visited[(ord(s[j]))]==True:
+#                 break
+
+#             else: 
+#                 res= max(res, j-i+1)
+#                 visited[(ord(s[j]))]= True
+
+#     return res
+
+# if __name__== "__main__":
+#     s= "geeksforgeeks"   
+#     print(longss(s)) 
+
+
+# agaian write code - 
+
+def lncc(s):
     n=len(s)
     res = 0
 
     for i in range(n):
 
-        visited=[False]*256
+        visited = [False]* 256
 
         for j in range(i,n):
 
             if visited[(ord(s[j]))]==True:
                 break
-
-            else: 
-                res= max(res, j-i+1)
-                visited[(ord(s[j]))]= True
+            else:
+                res=max(res,j-i+1)
+                visited[(ord(s[j]))]=True
 
     return res
 
-if __name__== "__main__":
-    s= "geeksforgeeks"   
-    print(longss(s))         
-
+if __name__=="__main__":
+    s="geeksforgeeks"
+    print(lncc(s))
 
 # class Solution:
 #     def maxProfit(self, prices: List[int]) -> int:
