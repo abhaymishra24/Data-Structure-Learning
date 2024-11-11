@@ -25,41 +25,7 @@ target=10
 result=(sum(nums,target))
 print(result)   
 
-
-# Here we solve best time to sell stock using recursion function (leetcode question)
-
-
-def max_profit(prices):
-    # Helper function for recursion
-    def helper(day, holding):
-        # Base case: if we reach the end of the prices list
-        if day >= len(prices):
-            return 0
-        
-        # If we are holding a stock
-        if holding:
-            # Option 1: Sell the stock today
-            sell_today = prices[day] + helper(day + 1, False)
-            # Option 2: Do nothing and hold the stock
-            hold_today = helper(day + 1, True)
-            return max(sell_today, hold_today)
-        else:
-            # If we are not holding a stock
-            # Option 1: Buy the stock today
-            buy_today = -prices[day] + helper(day + 1, True)
-            # Option 2: Do nothing and stay without stock
-            skip_today = helper(day + 1, False)
-            return max(buy_today, skip_today)
-
-    # Start recursion from day 0 and not holding any stock
-    return helper(0, False)
-
-# Example usage:
-prices = [7, 1, 5, 3, 6, 4]
-print("Maximum Profit:", max_profit(prices))
-
-
-# first and last accurence sorted 
+# first and last accurence sorted code - 
 
 def findFirstAndLast(arr, n, x):
     first = -1
