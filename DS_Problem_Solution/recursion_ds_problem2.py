@@ -67,5 +67,3 @@ print("Maximum Profit:", max_profit(prices))
 #                 profit += prices[i] - prices[i-1]
         
 #         return profit
-
-
