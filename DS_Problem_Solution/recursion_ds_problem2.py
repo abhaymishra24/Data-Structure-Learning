@@ -49,3 +49,34 @@ arr = [1, 2, 2, 2, 2, 3, 4, 7, 8, 8]
 n = len(arr)
 x = 8
 findFirstAndLast(arr, n, x)
+
+
+# Here solve the code by myself-
+
+def flacc(arr, x, n):
+    first = -1
+    last = -1
+
+    for i in range(0, n):
+
+        if(x != arr[i]):
+            continue
+        if (first == -1):
+            
+            first = i
+        last = i
+
+        if (first != -1):
+
+            print("first accurnce:", first, "\n last accurnce:", last)
+
+        else:
+            return ("not found")
+        
+arr = [1,2,3,4,4,4,6,6]
+n=len(arr)
+x=6
+flacc(arr,x,n)
+
+
+
