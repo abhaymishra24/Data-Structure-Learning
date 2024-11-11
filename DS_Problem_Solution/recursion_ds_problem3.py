@@ -51,42 +51,9 @@ def longss(s):
 
     return res
 
-if __name__=="main":
+if __name__== "__main__":
     s= "geeksforgeeks"   
     print(longss(s))         
-
-
-
-
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # class Solution:
