@@ -1,7 +1,4 @@
 
-
-
-
 # Best Time to Buy and Sell Stock - leetcode (easy)
 
 class Solution:
@@ -14,13 +11,8 @@ class Solution:
             profit = max (profit, i - price)
              
         return profit
-
-
-
-
-
-
-
+    
+    
 # Best Time to Buy and Sell Stock II - leetcode (medium)
 
 class Solution:
