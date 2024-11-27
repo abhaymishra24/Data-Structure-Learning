@@ -4,6 +4,16 @@
 
 # Best Time to Buy and Sell Stock - leetcode (easy)
 
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        price = float('inf')
+        profit = 0
+
+        for i in prices:
+            price = min (i, price)
+            profit = max (profit, i - price)
+             
+        return profit
 
 
 
