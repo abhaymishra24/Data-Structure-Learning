@@ -1,17 +1,5 @@
 
-# Remove Duplicates from Sorted Array - leetcode (easy)
-
-
-
-
-
-
-
-
-
-
-
-
+# Remove Duplicates from Sorted Array - leetcode (easy) 
 # Remove Duplicates from Sorted Array II - leetcode (medium)
 
 class Solution:
