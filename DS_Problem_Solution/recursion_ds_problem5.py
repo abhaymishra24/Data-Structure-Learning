@@ -96,3 +96,20 @@ arr = [8,9,4,5,6,6]
 sum = 21
 tripletsum(arr, sum)
     
+# here we solve double sum product -
+
+def Dsum(arr, sum):
+    
+    n = len(arr)
+    
+    for i in range(n-1):
+        for j in range(i+1, n-1):
+            if arr[i]+arr[j]==sum:
+                print(f"the number is:{arr[i]},{arr[j]}")
+                return True
+            
+    return False
+
+arr = [8,9,2,3,6,2]
+sum = 15
+Dsum(arr, sum)
