@@ -113,3 +113,22 @@ def Dsum(arr, sum):
 arr = [8,9,2,3,6,2]
 sum = 15
 Dsum(arr, sum)
+
+# again code triplet - 
+
+def trips(arr, sum):
+    
+    m = len(arr)
+    
+    for i in range(m-2):
+        for j in range(i+i, m-1):
+            for k in range(j+1, m):
+                if arr[i]+arr[j]+arr[k] == sum:
+                    print(f"print:{arr[i]},{arr[j]},{arr[k]}")
+                    return True
+    return False
+
+arr = [6,6,7,8,9,0,1,2]
+sum = 17
+trips(arr,sum)
+        
