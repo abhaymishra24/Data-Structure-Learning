@@ -20,3 +20,4 @@ print(len(matches))
 # - \w represents any word character (letter, digit, or underscore)
 # - {5} specifies exactly 5 occurrences of the previous pattern (\w)
 # The re.findall() function returns all non-overlapping matches of the pattern in the string. In this text, there are three five-letter words: 'quick', 'brown', and 'jumps'. Therefore, len(matches) returns 3.
+
