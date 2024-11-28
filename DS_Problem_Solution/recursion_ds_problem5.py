@@ -75,3 +75,8 @@ def triplet(arr, sum):
 arr = [2,4,5,6,7,9,2]
 sum=16
 triplet(arr, sum)
+
+
+# again solve - 
+
+def tripletsum(arr, sum):
