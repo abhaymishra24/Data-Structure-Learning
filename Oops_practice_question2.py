@@ -51,4 +51,16 @@ class City:
     
 c = City("Ashok Nager", "Indira Nager", "224")
 c.bus_time(f"{4}pm")   
-   
+
+# here we solve calculation on two number -
+
+def sum(n,m):
+    
+    print(f"sum is :{n+m}")
+    print(f"sub is :{n-m}")
+    print(f"divide is :{n//m}")
+    print(f"multi is :{n*m}")
+    
+sum(8,8)
+
+ 
