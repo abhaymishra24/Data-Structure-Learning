@@ -30,6 +30,6 @@ def thsum(num,sum):
         return False
     
 num = [2,3,4,5,6,7,8,9,0]
-sum = 10
+sum = 20
 thsum(num, sum)
 
