@@ -6,12 +6,11 @@ def tsum(num, target):
     
     for i in range(n-1):
         for j in range(i+1, n-1):
-            if num[i]+num[j] == target:
-                 
+            if num[i]+num[j] == target: 
                 print(num[i], num[j])
                 return True
     return False
 
-# num = [5,6,3,2,4,5]
-# target = 10
-# tsum(num, target)
+num = [5,6,3,2,4,5]
+target = 10
+tsum(num, target)
