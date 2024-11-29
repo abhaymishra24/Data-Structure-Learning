@@ -17,7 +17,7 @@ class Solution(object):
 # Remove Duplicates from Sorted Array II - leetcode (medium)
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums):
         k = 2
 
         for i in range(2, len(nums)):
