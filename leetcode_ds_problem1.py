@@ -2,7 +2,7 @@
 #  Here solution of Python based on List two sum-
 
 class Solution:
-    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+    def canPlaceFlowers(self, flowerbed):
     
         for i in range(len(flowerbed)):
             left = i == 0 or flowerbed[i-1] == 0
@@ -17,7 +17,7 @@ class Solution:
 # Here solution of Python based on Array tow sum-
     
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, target, nums):
         n = len(nums)
         for i in range(n - 1):
             for j in range(i + 1, n):
