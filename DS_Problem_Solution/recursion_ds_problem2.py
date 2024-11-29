@@ -77,3 +77,8 @@ arr = [1,2,3,4,4,4,6,6]
 n=len(arr)
 x=6
 flacc(arr,x,n)
+
+#  here solved again -
+
+
+

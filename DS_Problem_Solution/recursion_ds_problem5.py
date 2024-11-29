@@ -148,4 +148,4 @@ def Dsum(arr, sum):
 arr = [6,7,3,2,4,5]
 sum = 10
 Dsum(arr, sum)
-        
+
