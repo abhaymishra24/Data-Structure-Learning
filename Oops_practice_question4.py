@@ -1,6 +1,8 @@
 
 # Solve oops problems - 
 
+# here print two sum of product -
+
 def tsum(num, target):
      
     n = len(num)
@@ -16,6 +18,7 @@ num = [5,6,3,2,4,5]
 target = 10
 tsum(num, target)
 
+# here print thee sum of product -
 
 def thsum(num,sum):
          
@@ -33,6 +36,7 @@ num = [2,3,4,5,6,7,8,9,0]
 sum = 20
 thsum(num, sum)
 
+# here print four sum of product -
 
 def fsum(num, tar):
     
