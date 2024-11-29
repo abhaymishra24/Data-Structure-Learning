@@ -43,7 +43,14 @@ def fsum(num, tar):
             for k in range(j+1, n-1):
                 for l in range(k+1, n):
                     if num[i]+num[j]+num[k]+num[l] == tar:
-                        print("four sum is:{num[i]},{num[j]},{num[k]},{num[l]} number of tar")
+                        print(f"four sum is:{num[i]},{num[j]},{num[k]},{num[l]} number of tar")
+                        return True
+    
+    return False
+
+num = [4,5,6,7,8,9,3,2,9]
+tar = 25
+fsum(num, tar)
 
                         
                      
