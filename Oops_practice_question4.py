@@ -33,3 +33,17 @@ num = [2,3,4,5,6,7,8,9,0]
 sum = 20
 thsum(num, sum)
 
+
+def fsum(num, tar):
+    
+    n = len(num)
+    
+    for i in range(n-3):
+        for j in range(i+1, n-2):
+            for k in range(j+1, n-1):
+                for l in range(k+1, n):
+                    if num[i]+num[j]+num[k]+num[l] == tar:
+                        print("four sum is:{num[i]},{num[j]},{num[k]},{num[l]} number of tar")
+
+                        
+                     
