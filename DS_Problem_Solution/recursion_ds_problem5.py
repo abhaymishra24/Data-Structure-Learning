@@ -131,4 +131,21 @@ def trips(arr, sum):
 arr = [6,6,7,8,9,0,1,2]
 sum = 17
 trips(arr,sum)
+
+# here solve once again double -
+
+def Dsum(arr, sum):
+    
+    d = len(arr)
+    
+    for i in range(d-1):
+        for j in range(i+1,d-1):
+            if arr[i]+arr[j] == sum:
+                print(f"Dsum number:{arr[i]},{arr[j]}")
+                return True
+    return False
+
+arr = [6,7,3,2,4,5]
+sum = 10
+Dsum(arr, sum)
         
