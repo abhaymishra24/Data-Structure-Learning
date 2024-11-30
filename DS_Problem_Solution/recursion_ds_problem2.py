@@ -53,30 +53,30 @@ findFirstAndLast(arr, n, x)
 
 # Here solve the code by myself-
 
-def flacc(arr, x, n):
-    first = -1
-    last = -1
+# def flacc(arr, x, n):
+#     first = -1
+#     last = -1
 
-    for i in range(0, n):
+#     for i in range(0, n):
 
-        if(x != arr[i]):
-            continue
-        if (first == -1):
+#         if(x != arr[i]):
+#             continue
+#         if (first == -1):
             
-            first = i
-        last = i
+#             first = i
+#         last = i
 
-        if (first != -1):
+#         if (first != -1):
 
-            print("first accurnce:", first, "\n last accurnce:", last)
+#             print("first accurnce:", first, "\n last accurnce:", last)
 
-        else:
-            return ("not found")
+#         else:
+#             return ("not found")
         
-arr = [1,2,3,4,4,4,6,6]
-n=len(arr)
-x=6
-flacc(arr,x,n)
+# arr = [1,2,3,4,4,4,6,6]
+# n=len(arr)
+# x=6
+# flacc(arr,x,n)
 
 #  here solved again -
 
