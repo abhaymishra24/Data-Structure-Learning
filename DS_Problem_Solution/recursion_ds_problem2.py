@@ -76,8 +76,3 @@ n=6
 flacc(arr,x,n)
 
 #  here solved again -
-
-
-
-
-
