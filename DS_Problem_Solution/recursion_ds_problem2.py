@@ -57,25 +57,22 @@ def flacc(arr, x, n):
     first = -1
     last = -1
 
-    for i in range(0, n):
+    for i in range(0, x):
 
-        if(x != arr[i]):
+        if(n != arr[i]):
             continue
-        if (first == -1):
-            
+        if (first == -1): 
             first = i
         last = i
 
         if (first != -1):
-
-            print("first accurnce:", first, "\n last accurnce:", last)
-
+            print(f"first accurnce:{first}, last accurnce:{last}")
         else:
-            return ("not found")
+            print("not found")
         
 arr = [1,2,3,4,4,4,6,6]
-n=len(arr)
-x=6
+x=len(arr)
+n=6
 flacc(arr,x,n)
 
 #  here solved again -
