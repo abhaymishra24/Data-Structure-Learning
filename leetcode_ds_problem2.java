@@ -20,7 +20,7 @@ class Solution {
 
 // threeSum Question and solution (leetcode, medium)
 
-class Solution {
+class Sol {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
