@@ -66,6 +66,7 @@ def anb(arr, t):
             for k in range(j+1, n):
                 if arr[i] + arr[j] + arr[k] == t:
                     print(f"here product number : {arr[i]},{arr[j]},{arr[k]}")
+                    return True
                     
     return False
 
