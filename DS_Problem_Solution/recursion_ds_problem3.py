@@ -86,4 +86,7 @@ if __name__=="__main__":
 def longst(s):
     
     n = len(s)
+    res = 0
     
+    for i in range(n):
+        
