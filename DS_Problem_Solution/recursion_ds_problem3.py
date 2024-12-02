@@ -92,7 +92,13 @@ def longst(s):
         visited = [False] * 265
         
         for j in range(i,n):
-             if visited[(ord(s[j]))] == True:
-                 break
-             else:
+            if visited[(ord(s[j]))] == True:
+                break
+            else:
+                res = max(res,j-i+1)
+                visited[(ord(s[j]))] = True
+                
+    return res
+
+
                  
