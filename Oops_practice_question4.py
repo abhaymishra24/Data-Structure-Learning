@@ -56,6 +56,8 @@ num = [4,5,6,7,8,9,3,2,9]
 tar = 25
 fsum(num, tar)
 
+# here print the 3 sum product of number -
+
 
 
                         
