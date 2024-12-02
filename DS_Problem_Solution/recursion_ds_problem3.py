@@ -79,3 +79,6 @@ def lncc(s):
 if __name__=="__main__":
     s="geeksforgeeks"
     print(lncc(s))
+
+
+# here we solve again this question - 
