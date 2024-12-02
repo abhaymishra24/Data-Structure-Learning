@@ -82,3 +82,8 @@ if __name__=="__main__":
 
 
 # here we solve again this question - 
+
+def longst(s):
+    
+    n = len(s)
+    
