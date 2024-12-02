@@ -58,7 +58,10 @@ fsum(num, tar)
 
 # here print the 3 sum product of number -
 
-
+def anb(arr, t):
+    
+    n = len(arr)
+    
 
                         
                      
