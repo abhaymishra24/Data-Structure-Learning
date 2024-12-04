@@ -159,7 +159,7 @@ def sut(num, t):
         for j in range(i+1, n-1):
             for k in range(j+1, n):
                 if num[i] + num [j] + num [k] == t:
-                    print("number is here of t : {num[i]},{num[j]},{num[k]}. solve it.")
+                    print(f"number is here of t : {num[i]},{num[j]},{num[k]}. solve it.")
                     return True
     return False
 
