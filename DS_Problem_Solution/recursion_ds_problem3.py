@@ -125,5 +125,9 @@ def lt(s):
 s = "hellbbsktttt"
 print(lt(s))
 
+# here we solve again this question -
+
+
+
 
                  

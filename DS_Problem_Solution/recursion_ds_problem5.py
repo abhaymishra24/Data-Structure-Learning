@@ -166,3 +166,20 @@ def sut(num, t):
 num = [1,2,3,4,5,0,9,8,7]
 t  = 17
 sut(num,t)  
+
+# here we solve this question once again - 
+
+def sumtwonumber(num,pro):
+    
+    n = len(num)
+    
+    for i in range(n-1):
+        for j in range(i,n):
+            if num[i] + num[j] == pro:
+                print(num[i],num[j])
+                return True
+    return False
+
+num = [2,4,6,9,12,8]
+pro = 14
+sumtwonumber(num,pro)
