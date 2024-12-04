@@ -122,12 +122,12 @@ def lt(s):
                 
     return res
 
-s = "hellbbsktttt"
+s = "abcabcbb"
 print(lt(s))
 
 # here we solve again this question -
 
-
+# def longeststring()
 
 
                  
