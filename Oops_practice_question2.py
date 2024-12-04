@@ -73,6 +73,8 @@ date2 = datetime(2023, 5, 15)
 delta = date2 - date1
 print(delta.days)
 
+# Explaination of this code - 
+
 # The code calculates the difference between two datetime objects using the timedelta class. 
 # The result is stored in the 'delta' variable.
 # The 'days' attribute of timedelta gives the number of days between the two dates.
