@@ -64,3 +64,11 @@ def sum(n,m):
 sum(8,8)
 
  
+ # here basice time problem , once time please watch this question and thik about it !
+ 
+from datetime import datetime, timedelta
+
+date1 = datetime(2023, 5, 1)
+date2 = datetime(2023, 5, 15)
+delta = date2 - date1
+print(delta.days)
