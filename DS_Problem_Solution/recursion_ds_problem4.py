@@ -77,44 +77,75 @@ if __name__ == "__main__":
 
 # here I write code the question without comment-
 
-def findLongestSubstring(string):
+# def findLongestSubstring(string):
  
-    n = len(string)     
-    st = 0
-    maxlen = 0
-    start = 0
+#     n = len(string)     
+#     st = 0
+#     maxlen = 0
+#     start = 0
  
-    pos = {} 
+#     pos = {} 
 
-    pos[string[0]] = 0
+#     pos[string[0]] = 0
  
-    for i in range(1, n): 
+#     for i in range(1, n): 
      
-        if string[i] not in pos: 
-            pos[string[i]] = i 
+#         if string[i] not in pos: 
+#             pos[string[i]] = i 
  
-        else:
+#         else:
              
-            if pos[string[i]] >= st: 
+#             if pos[string[i]] >= st: 
   
-                currlen = i - st 
-                if maxlen < currlen: 
-                    maxlen = currlen 
-                    start = st 
+#                 currlen = i - st 
+#                 if maxlen < currlen: 
+#                     maxlen = currlen 
+#                     start = st 
    
-                st = pos[string[i]] + 1
+#                 st = pos[string[i]] + 1
              
-            pos[string[i]] = i 
+#             pos[string[i]] = i 
          
-    if maxlen < i - st: 
-        maxlen = i - st 
-        start = st 
+#     if maxlen < i - st: 
+#         maxlen = i - st 
+#         start = st 
      
-    return string[start : start + maxlen] 
+#     return string[start : start + maxlen] 
  
-if __name__ == "__main__": 
+# if __name__ == "__main__": 
  
-    string = "GEEKSFORGEEKS"
-    print(findLongestSubstring(string)) 
+#     string = "GEEKSFORGEEKS"
+#     print(findLongestSubstring(string)) 
+    
+    
+# Here the different solution - 
 
+def findLongestSubstring(s: str) -> str:
+    char_index_map = {}
+    start = 0
+    max_length = 0
+    longest_substring = ""
+
+    for end in range(len(s)):
+        if s[end] in char_index_map:
+            # Move the start pointer to the right of the last occurrence of s[end]
+            start = max(start, char_index_map[s[end]] + 1)
+
+        # Update the last seen index of the character
+        char_index_map[s[end]] = end
+        
+        # Calculate the length of the current substring
+        current_length = end - start + 1
+        
+        # Update max_length and longest_substring if we found a longer one
+        if current_length > max_length:
+            max_length = current_length
+            longest_substring = s[start:end + 1]
+
+    return longest_substring
+
+# Example usage:
+input_string = "abcabcbb"
+result = findLongestSubstring(input_string)
+print(f"The longest substring without repeating characters is: '{result}'")
  

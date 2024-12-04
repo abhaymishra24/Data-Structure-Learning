@@ -165,6 +165,4 @@ def sut(num, t):
 
 num = [1,2,3,4,5,0,9,8,7]
 t  = 17
-sut(num,t)
-    
-    
+sut(num,t)  
