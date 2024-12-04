@@ -162,5 +162,9 @@ def sut(num, t):
                     print("number is here of t : {num[i]},{num[j]},{num[k]}. solve it.")
                     return True
     return False
+
+num = [1,2,3,4,5,0,9,8,7]
+t  = 17
+sut(num,t)
     
     
