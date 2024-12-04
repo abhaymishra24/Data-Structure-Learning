@@ -72,3 +72,8 @@ date1 = datetime(2023, 5, 1)
 date2 = datetime(2023, 5, 15)
 delta = date2 - date1
 print(delta.days)
+
+# The code calculates the difference between two datetime objects using the timedelta class. 
+# The result is stored in the 'delta' variable.
+# The 'days' attribute of timedelta gives the number of days between the two dates.
+# In this case, the difference between May 15 and May 1 is 14 days.
