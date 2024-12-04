@@ -77,45 +77,45 @@ if __name__ == "__main__":
 
 # here I write code the question without comment-
 
-# def findLongestSubstring(string):
+def findLongestSubstring(string):
  
-#     n = len(string)     
-#     st = 0
-#     maxlen = 0
-#     start = 0
+    n = len(string)     
+    st = 0
+    maxlen = 0
+    start = 0
  
-#     pos = {} 
+    pos = {} 
 
-#     pos[string[0]] = 0
+    pos[string[0]] = 0
  
-#     for i in range(1, n): 
+    for i in range(1, n): 
      
-#         if string[i] not in pos: 
-#             pos[string[i]] = i 
+        if string[i] not in pos: 
+            pos[string[i]] = i 
  
-#         else:
+        else:
              
-#             if pos[string[i]] >= st: 
+            if pos[string[i]] >= st: 
   
-#                 currlen = i - st 
-#                 if maxlen < currlen: 
-#                     maxlen = currlen 
-#                     start = st 
+                currlen = i - st 
+                if maxlen < currlen: 
+                    maxlen = currlen 
+                    start = st 
    
-#                 st = pos[string[i]] + 1
+                st = pos[string[i]] + 1
              
-#             pos[string[i]] = i 
+            pos[string[i]] = i 
          
-#     if maxlen < i - st: 
-#         maxlen = i - st 
-#         start = st 
+    if maxlen < i - st: 
+        maxlen = i - st 
+        start = st 
      
-#     return string[start : start + maxlen] 
+    return string[start : start + maxlen] 
  
-# if __name__ == "__main__": 
+if __name__ == "__main__": 
  
-#     string = "GEEKSFORGEEKS"
-#     print(findLongestSubstring(string)) 
+    string = "GEEKSFORGEEKS"
+    print(findLongestSubstring(string)) 
     
     
 # Here the different solution - 
@@ -148,4 +148,9 @@ def findLongestSubstring(s: str) -> str:
 input_string = "abcabcbb"
 result = findLongestSubstring(input_string)
 print(f"The longest substring without repeating characters is: '{result}'")
+
+# sloved this question in both method - 
+
+def longst():
+    
  
