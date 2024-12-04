@@ -115,7 +115,14 @@ def lt(s):
         
         for j in range(i,n):
             if v[(ord(s[j]))] == True:
-                print
+                break
+            else:
+                res = max(res, j-i+1)
+                v[((ord(s[j])))] = True
+                
+    return res
+
+
 
 
                  
