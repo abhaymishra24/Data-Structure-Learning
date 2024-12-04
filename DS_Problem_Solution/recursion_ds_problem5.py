@@ -149,3 +149,8 @@ arr = [6,7,3,2,4,5]
 sum = 10
 Dsum(arr, sum)
 
+# one agian try this question -
+
+def sut(num, t):
+    
+    
