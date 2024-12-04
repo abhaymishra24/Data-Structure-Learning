@@ -106,5 +106,16 @@ if __name__== "__main__":
     
 # here solve once again this problem - 
 
+def lt(s):
+    n = len(s)
+    res = 0
+    
+    for i in range(n):
+        v = [False] * 265
+        
+        for j in range(i,n):
+            if v[(ord(s[j]))] == True:
+                print
+
 
                  
