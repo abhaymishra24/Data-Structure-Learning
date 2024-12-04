@@ -122,7 +122,7 @@ def lt(s):
                 
     return res
 
-s = "hellbbsktt"
+s = "hellbbsktttt"
 print(lt(s))
 
 
