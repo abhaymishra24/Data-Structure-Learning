@@ -101,7 +101,7 @@ def longst(s):
     return res
 
 if __name__== "__main__":
-    s = "hellomynameishello"
+    s = "hellomy"
     print(longst(s))
     
 # here solve once again this problem - 
