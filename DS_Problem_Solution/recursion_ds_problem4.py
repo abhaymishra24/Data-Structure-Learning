@@ -150,7 +150,3 @@ result = findLongestSubstring(input_string)
 print(f"The longest substring without repeating characters is: '{result}'")
 
 # sloved this question in both method - 
-
-def longst():
-    
- 
