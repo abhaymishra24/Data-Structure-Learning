@@ -78,3 +78,9 @@ flacc(arr,x,n)
 #  here solved again -
 
 def acc(arr, a, n):
+    first = -1
+    last = -1
+    
+    for i in range(0, a):
+        
+        
