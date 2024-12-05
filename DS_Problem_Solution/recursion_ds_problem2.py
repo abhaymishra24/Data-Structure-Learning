@@ -65,10 +65,14 @@ def flacc(arr, x, n):
             first = i
         last = i
 
-        if (first != -1):
-            print(f"first accurnce:{first}, last accurnce:{last}")
-        else:
-            print("not found")
+    if (first != -1):
+        
+        print("first accurnce:",first, 
+                " \nlast accurnce:",last)
+
+    else:
+        
+        print("not found")
         
 arr = [1,2,3,4,4,4,6,6]
 x=len(arr)
