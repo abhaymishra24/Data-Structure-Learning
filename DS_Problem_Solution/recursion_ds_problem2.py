@@ -83,4 +83,7 @@ def acc(arr, a, n):
     
     for i in range(0, a):
         
+        if (n != arr[i]):
+            continue
+        
         
