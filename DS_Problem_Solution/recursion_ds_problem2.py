@@ -90,9 +90,13 @@ def acc(arr, a, n):
         last = i
         
         if (first != -1):
-            print("first acuurnce:{first}, last acuurance:{last}")
+            print(f"first acuurnce:{first}, last acuurance:{last}")
         else:
             print("not found")
             
+arr = [9,4,5,7,3,4,2,2,5]
+a = len(arr)
+n = 2
+acc(arr, a, n)       
 
-        
+ 
