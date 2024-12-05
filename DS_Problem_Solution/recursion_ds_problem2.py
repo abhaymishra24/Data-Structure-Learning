@@ -91,11 +91,9 @@ def acc(arr, a, n):
             first = i
         last = i
         
-    if (first != -1):
-        
+    if (first != -1): 
         print(f"first acuurnce:{first}, last acuurance:{last}")
-    else:
-        
+    else: 
         print("not found")
             
 arr = [9,4,5,7,3,4,2,2,5]
