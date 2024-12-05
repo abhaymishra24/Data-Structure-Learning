@@ -99,6 +99,9 @@ def acc(arr, a, n):
 arr = [9,4,5,7,3,4,2,2,5]
 a = len(arr)
 n = 2
-acc(arr, a, n)       
+acc(arr, a, n)   
+    
 
- 
+# here we solve once again this question -
+
+
