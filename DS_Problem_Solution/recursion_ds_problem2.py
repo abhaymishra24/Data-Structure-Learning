@@ -76,3 +76,6 @@ n=6
 flacc(arr,x,n)
 
 #  here solved again -
+
+def acc(arr, a, n):
+    
