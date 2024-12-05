@@ -85,5 +85,14 @@ def acc(arr, a, n):
         
         if (n != arr[i]):
             continue
+        if (first == -1):
+            first = i
+        last = i
         
+        if (first != -1):
+            print("first acuurnce:{first}, last acuurance:{last}")
+        else:
+            print("not found")
+            
+
         
