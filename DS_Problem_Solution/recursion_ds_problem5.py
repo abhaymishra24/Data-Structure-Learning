@@ -203,3 +203,19 @@ def threenumber(arr, add):
 arr = [2,3,4,5,6,7]
 add = 12
 threenumber(arr, add)
+
+
+# here solve once again for two add number - 
+
+def twonumber(a, ad):
+    
+    n = len(a)
+    
+    for i in range(n-1):
+        for j in range(i+1,n):
+            if a[i] + a[j] == ad:
+                print("number is for ad = {a[i]},{a[j]}.")
+                return True
+            
+    return False
+
