@@ -183,3 +183,20 @@ def sumtwonumber(num,pro):
 num = [2,4,6,9,12,8]
 pro = 14
 sumtwonumber(num,pro)
+
+
+# solve this question once again - 
+
+def threenumber(arr, add):
+    
+    n = len(arr)
+    
+    for i in range(n-2):
+        for j in range(i+1, n-1):
+            for k in range(j+1, n):
+                if arr[i] + arr[j] + arr[k] == add:
+                    print("the number is of add:{arr[i]},{arr[j]}, arr{arr[k]}.")
+                    return True
+                
+    return False
+
