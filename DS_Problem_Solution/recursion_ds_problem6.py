@@ -26,4 +26,28 @@
 #         return profit
 
 
- 
+def maxProfit(prices):
+    # Initialize variables
+    min_price = float('inf')  # Set to infinity initially
+    max_profit = 0  # Maximum profit initialized to 0
+
+    # Iterate through each price in the list
+    for price in prices:
+        # Update min_price if the current price is lower
+        if price < min_price:
+            min_price = price
+        # Calculate profit if selling at current price
+        current_profit = price - min_price
+        # Update max_profit if current profit is greater
+        if current_profit > max_profit:
+            max_profit = current_profit
+
+    return max_profit
+
+# Example usage
+prices = [7, 1, 5, 3, 6, 4]
+print(maxProfit(prices))  # Output: 5
+
+
+# here we solve without comments -
+
