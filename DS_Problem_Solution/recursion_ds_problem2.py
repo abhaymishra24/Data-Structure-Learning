@@ -104,12 +104,12 @@ acc(arr, a, n)
 
 # here we solve once again this question -
 
-def accur(arr, tt, nn):
+def accur(arr, t, n):
     
     f = -1
     l = -1
     
-    for i in range(0, tt):
+    for i in range(0, t):
         
         if (n != arr[i]):
             continue
@@ -122,6 +122,9 @@ def accur(arr, tt, nn):
     else:
         print("not found")
         
-
+arr = [4,5,6,7,8,8,9,3]
+t = len(arr)
+n = 8
+accur(arr, t, n)
             
     
