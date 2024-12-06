@@ -214,8 +214,11 @@ def twonumber(a, ad):
     for i in range(n-1):
         for j in range(i+1,n):
             if a[i] + a[j] == ad:
-                print("number is for ad = {a[i]},{a[j]}.")
+                print(f"number is for ad = {a[i]},{a[j]}.")
                 return True
             
     return False
 
+a = [3,4,5,6,7,8]
+ad = 7
+twonumber(a, ad)
