@@ -103,5 +103,3 @@ acc(arr, a, n)
     
 
 # here we solve once again this question -
-
-
