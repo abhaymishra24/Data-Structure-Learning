@@ -127,7 +127,24 @@ print(lt(s))
 
 # here we solve again this question -
 
-# def longeststring()
+def longeststring(a):
+    
+    n = len(s)
+    res = 0
+    
+    for i in range(n):
+        v = [False] * 256
+        
+        for j in range(i,n):
+            if v [(ord(s[j]))] == True:
+                break
+            else:
+                res = max(res,j-i+1)
+                v[(ord(a[j]))] = True
+                
+    return res
+
+
 
 
                  
