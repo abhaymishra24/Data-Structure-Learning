@@ -195,8 +195,11 @@ def threenumber(arr, add):
         for j in range(i+1, n-1):
             for k in range(j+1, n):
                 if arr[i] + arr[j] + arr[k] == add:
-                    print("the number is of add:{arr[i]},{arr[j]}, arr{arr[k]}.")
+                    print(f"the number is of add:{arr[i]},{arr[j]},{arr[k]}.")
                     return True
                 
     return False
 
+arr = [2,3,4,5,6,7]
+add = 12
+threenumber(arr, add)
