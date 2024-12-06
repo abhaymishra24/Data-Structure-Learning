@@ -103,3 +103,25 @@ acc(arr, a, n)
     
 
 # here we solve once again this question -
+
+def accur(arr, tt, nn):
+    
+    f = -1
+    l = -1
+    
+    for i in range(0, tt):
+        
+        if (n != arr[i]):
+            continue
+        if (f == -1):
+            f = i
+        l = i
+    
+    if (f != -1):
+        print((f), (l))
+    else:
+        print("not found")
+        
+
+            
+    

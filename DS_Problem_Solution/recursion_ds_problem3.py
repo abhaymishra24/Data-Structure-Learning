@@ -145,7 +145,4 @@ def longeststring(a):
     return res
 
 a = "abhaybhiaabhay"
-print(longeststring(a))
-
-
-                 
+print(longeststring(a))               
