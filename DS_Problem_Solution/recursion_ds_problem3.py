@@ -129,14 +129,14 @@ print(lt(s))
 
 def longeststring(a):
     
-    n = len(s)
+    n = len(a)
     res = 0
     
     for i in range(n):
         v = [False] * 256
         
         for j in range(i,n):
-            if v [(ord(s[j]))] == True:
+            if v [(ord(a[j]))] == True:
                 break
             else:
                 res = max(res,j-i+1)
@@ -144,7 +144,8 @@ def longeststring(a):
                 
     return res
 
-
+a = "abhaybhiaabhay"
+print(longeststring(a))
 
 
                  
