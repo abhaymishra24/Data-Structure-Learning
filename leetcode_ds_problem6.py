@@ -33,3 +33,7 @@ for i in range(n):
     li.append(e)
 
 print("Second largest in", li, "is", second_largest_remove_max(li))
+
+
+# Here solved without comment -
+
