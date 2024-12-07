@@ -37,6 +37,8 @@ print("Second largest in", li, "is", second_largest_remove_max(li))
 
 # Here solved without comment -
 
+# with the help of (sorting value)
+
 def second_largest_sort(lst):
     lst.sort()   
     return lst[-2]   
@@ -48,6 +50,9 @@ for i in range(n):
     li.append(e)
 
 print("Second largest in", li, "is", second_largest_sort(li))
+
+
+# solve this question with the (Removing the Maximum Element)
 
 def second_largest_remove_max(lst):
     max_value = max(lst)   
@@ -61,3 +66,4 @@ for i in range(n):
     li.append(e)
 
 print("Second largest in", li, "is", second_largest_remove_max(li))
+
