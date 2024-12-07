@@ -1,4 +1,8 @@
 
+# here we solve second largest value - 
+
+# with the help of (sorting value)
+
 def second_largest_sort(lst):
     lst.sort()  # Sort the list in ascending order
     return lst[-2]  # Return the second last element
