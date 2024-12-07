@@ -41,7 +41,6 @@ def second_largest_sort(lst):
     lst.sort()   
     return lst[-2]   
 
-
 li = []
 n = int(input("Enter size of list: "))
 for i in range(n):
