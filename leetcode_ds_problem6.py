@@ -15,3 +15,8 @@ for i in range(n):
     li.append(e)
 
 print("Second largest in", li, "is", second_largest_sort(li))
+
+# here we solve same question with diffenet method - 
+
+# solve this question with the (Removing the Maximum Element)
+
