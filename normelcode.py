@@ -1,6 +1,8 @@
 
 # here we solve normel code -
 
+# find out second largest number using sorting array
+
 def second_largest_sorting(numbers):
     numbers.sort(reverse=True)
     return numbers[1]
@@ -9,6 +11,7 @@ numbers = [12, 45, 2, 41, 31, 10, 45, 65, 78]
 second_largest = second_largest_sorting(numbers)
 print("Second largest number:", second_largest)
 
+# same question solve with comments - 
 
 def second_largest_sorting(numbers):
     # Sort the list of numbers in descending order (largest to smallest)
