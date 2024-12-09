@@ -92,3 +92,24 @@ if result is not None:
 else:
     print("There are not enough unique numbers to determine the second largest.")
 
+
+# same code without comments - 
+
+def second_largest(numbers):
+   
+    unique_numbers = set(numbers)
+
+    if len(unique_numbers) < 2:
+        return None   
+
+    sorted_numbers = sorted(unique_numbers)
+
+    return sorted_numbers[-2]
+
+numbers = [12, 35, 1, 10, 34, 1]
+result = second_largest(numbers)
+
+if result is not None:
+    print(f"The second largest number is: {result}")
+else:
+    print("There are not enough unique numbers to determine the second largest.")
