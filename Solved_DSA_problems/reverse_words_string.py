@@ -29,6 +29,10 @@ print(f"Reversed Words String: '{reversed_string}'")
 
 # same code without comment - 
 
+# Split the string into words.
+# Reverse the list of words.
+# Join the reversed list back into a string.
+
 def reverse_words(input_string: str) -> str:
      
     words = input_string.split()
