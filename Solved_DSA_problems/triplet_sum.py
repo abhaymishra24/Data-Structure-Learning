@@ -254,11 +254,11 @@ def tsum(number, goal):
         for j in range(i+1, n-1):
             for k in range(j+1, n):
                 if number[i] + number[j] + number[k] == goal:
-                    print("the number of goal is {number[i]},{number[j]},{number[k]}. thank you for reach the goal.")
+                    print(f"the number of goal is {number[i]},{number[j]},{number[k]}. thank you for reach the goal.")
                     return True
                 
     return False
 
 number = [9,8,9,9,3,2,4]
-goal = 30
+goal = 20
 tsum(number, goal)
