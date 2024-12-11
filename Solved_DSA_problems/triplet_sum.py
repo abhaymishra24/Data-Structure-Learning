@@ -242,3 +242,23 @@ def add(num, tar):
 num = [3,4,5,6,7,8,9,8,7]
 tar = 22
 add(num, tar)
+
+
+# here solve same question of three number sum product -
+
+def tsum(number, goal):
+    
+    n = len(number)
+    
+    for i in range(n-2):
+        for j in range(i+1, n-1):
+            for k in range(j+1, n):
+                if number[i] + number[j] + number[k] == goal:
+                    print("the number of goal is {number[i]},{number[j]},{number[k]}. thank you for reach the goal.")
+                    return True
+                
+    return False
+
+number = [9,8,9,9,3,2,4]
+goal = 30
+tsum(number, goal)
