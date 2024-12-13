@@ -119,3 +119,8 @@ def acurrence(arr, number, tar):
         print((first), (last))
     else:
         print("Not found")
+        
+arr = [5,6,7,8,9,0,0,3]
+number = len(arr)
+tar = 0
+acurrence(arr, number, tar)
