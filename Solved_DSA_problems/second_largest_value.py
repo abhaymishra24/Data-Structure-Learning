@@ -143,16 +143,3 @@ second_largest = second_largest_sorting(numbers)
 # Print the result
 print("Second largest number:", second_largest)
 
-# sorting = 
-
-def second_largest_sort(lst):
-    lst.sort()   
-    return lst[-2]   
-
-li = []
-n = int(input("Enter size of list: "))
-for i in range(n):
-    e = int(input("Enter element of list: "))
-    li.append(e)
-
-print("Second largest in", li, "is", second_largest_sort(li))
