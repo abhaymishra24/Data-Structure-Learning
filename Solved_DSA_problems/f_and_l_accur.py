@@ -103,3 +103,19 @@ accur(arr, t, n)
             
 # here solve again this question - 
 
+def acurrence(arr, number, tar):
+    
+    first = -1
+    last = -1
+    
+    for i in range(0, number):
+        if (number != arr[i]):
+            continue
+        if (first == -1):
+            first = i
+        last = i
+        
+    if (first != -1):
+        print((first), (last))
+    else:
+        print("Not found")
