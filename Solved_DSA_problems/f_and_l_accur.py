@@ -101,4 +101,5 @@ t = len(arr)
 n = 8
 accur(arr, t, n)
             
-    
+# here solve again this question - 
+
