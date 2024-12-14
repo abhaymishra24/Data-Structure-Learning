@@ -31,3 +31,4 @@ def removeDuplicates(arr, nums):
 arr = [8,8,9,3,4,5]
 nums = len(arr)
 print(removeDuplicates(arr,nums))
+
