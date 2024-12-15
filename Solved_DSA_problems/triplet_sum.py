@@ -293,7 +293,7 @@ def number(add, goal):
             for k in range(j+1, n-1):
                 for l in range(k+1, n):
                     if add[i] + add[j] + add[k] + add[l] == goal:
-                        print("number for goal is - {add[i]} and {add[j]} and {add[k]} and {add[l]}.")
+                        print(f"The number for goal is - {add[i]} and {add[j]} and {add[k]} and {add[l]}.")
                         return True
                     
     return False
