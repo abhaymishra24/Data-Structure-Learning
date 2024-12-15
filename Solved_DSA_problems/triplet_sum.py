@@ -281,3 +281,15 @@ def addnum(number, tgt):
 number = [3,4,5,6,7,8,9,0,2]
 tgt = 15
 addnum(number, tgt)
+
+# solve again this problem with four number - 
+
+def number(add, goal):
+    
+    n = len(add)
+    
+    for i in range(n-3):
+        for j in range(i+1, n-2):
+            for k in range(j+1, n-1):
+                for l in range(k+1, n):
+                    if 
