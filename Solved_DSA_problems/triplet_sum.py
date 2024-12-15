@@ -319,4 +319,7 @@ ar = [2,3,4,5,6]
 g = 8
 numb(ar, g)
 
-            
+# try again and again to solve this problem 
+# practice
+# to be conitnue
+      
