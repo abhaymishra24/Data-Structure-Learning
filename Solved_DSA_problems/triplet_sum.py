@@ -265,3 +265,6 @@ tsum(number, goal)
 
 # solve this problem again - 
 
+def addnum(number, tgt):
+    
+    
