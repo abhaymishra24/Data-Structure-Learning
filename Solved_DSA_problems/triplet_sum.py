@@ -262,3 +262,6 @@ def tsum(number, goal):
 number = [9,8,9,9,3,2,4]
 goal = 20
 tsum(number, goal)
+
+# solve this problem again - 
+
