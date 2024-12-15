@@ -273,7 +273,7 @@ def addnum(number, tgt):
         for j in range(i+1, n-1):
             for k in range(j+1, n):
                 if number[i] + number[j] + number[k] == tgt:
-                    print("the number is - {number[i]} and {number[j]} and {number[k]}.")
+                    print(f"the number is - {number[i]} and {number[j]} and {number[k]}.")
                     return True
     
     return False
@@ -281,5 +281,3 @@ def addnum(number, tgt):
 number = [3,4,5,6,7,8,9,0,2]
 tgt = 15
 addnum(number, tgt)
-
-    
