@@ -310,6 +310,13 @@ def numb(ar, g):
     for i in range(n-1):
         for j in range(i+1, n):
             if ar[i] + ar[j] == g:
-                print("print the number is {ar[i]} and {ar[j]}.")
+                print(f"print the number is {ar[i]} and {ar[j]}.")
                 return True
+            
+    return False
+
+ar = [2,3,4,5,6]
+g = 8
+numb(ar, g)
+
             
