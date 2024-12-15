@@ -276,4 +276,10 @@ def addnum(number, tgt):
                     print("the number is - {number[i]} and {number[j]} and {number[k]}.")
                     return True
     
+    return False
+
+number = [3,4,5,6,7,8,9,0,2]
+tgt = 15
+addnum(number, tgt)
+
     
