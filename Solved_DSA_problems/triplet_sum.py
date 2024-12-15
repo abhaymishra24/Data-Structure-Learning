@@ -304,3 +304,9 @@ number(add, goal)
 
 # solve this problem once again - 
 
+def numb(ar, g):
+    n = len(ar)
+     
+    for i in range(n-1):
+        for j in range():
+            
