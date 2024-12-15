@@ -295,3 +295,9 @@ def number(add, goal):
                     if add[i] + add[j] + add[k] + add[l] == goal:
                         print("number for goal is - {add[i]} and {add[j]} and {add[k]} and {add[l]}.")
                         return True
+                    
+    return False
+
+add = [3,4,5,6,7,8,9,8,2]
+goal = 25
+number(add, goal)
