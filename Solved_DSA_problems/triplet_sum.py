@@ -292,4 +292,6 @@ def number(add, goal):
         for j in range(i+1, n-2):
             for k in range(j+1, n-1):
                 for l in range(k+1, n):
-                    if 
+                    if add[i] + add[j] + add[k] + add[l] == goal:
+                        print("number for goal is - {add[i]} and {add[j]} and {add[k]} and {add[l]}.")
+                        return True
