@@ -27,7 +27,7 @@ def removeDuplicates(arr, nums):
             k += 1 
 
     return k
-    
+
 arr = [8,8,9,3,4,5]
 nums = len(arr)
 print(removeDuplicates(arr,nums))
