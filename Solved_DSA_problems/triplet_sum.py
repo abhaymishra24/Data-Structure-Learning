@@ -308,5 +308,8 @@ def numb(ar, g):
     n = len(ar)
      
     for i in range(n-1):
-        for j in range():
+        for j in range(i+1, n):
+            if ar[i] + ar[j] == g:
+                print("print the number is {ar[i]} and {ar[j]}.")
+                return True
             
