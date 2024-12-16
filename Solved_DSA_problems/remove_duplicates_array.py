@@ -14,9 +14,9 @@ class Solution(object):
         
         return k
     
-Remove Duplicates from Sorted Array II - leetcode (medium)
+# Remove Duplicates from Sorted Array II - leetcode (medium)
 
-class Solution:
+# class Solution:
 def removeDuplicates(arr, nums):
     
     k = 2
@@ -32,7 +32,7 @@ arr = [8,8,9,3,4,5]
 nums = len(arr)
 print(removeDuplicates(arr,nums))
 
-solve once again this problem - 
+# solve once again this problem - 
 
 def removedubli(arr, num):
     
@@ -66,4 +66,5 @@ def remove_duplicates_set(arr):
 
 arr = [10, 20, 20, 30, 40, 40, 50]
 result = remove_duplicates_set(arr)
-print(result)   
+print(result) 
+  
