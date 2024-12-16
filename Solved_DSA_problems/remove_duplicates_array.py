@@ -84,3 +84,21 @@ def removedubli(arr, num):
 arr = [4,5,6,7,7,8,9]
 num = len(arr)
 print(removedubli(arr, num))
+
+# same code with correction - 
+
+def removedubli(arr):
+    if not arr:
+        return arr  
+ 
+    unique_elements = []
+    
+    for num in arr:
+        if num not in unique_elements:
+            unique_elements.append(num)   
+
+    return unique_elements
+
+arr = [4, 5, 6, 7, 7, 8, 9]
+result = removedubli(arr)
+print(result)   

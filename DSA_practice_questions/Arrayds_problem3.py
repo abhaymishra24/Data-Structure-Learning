@@ -1,20 +1,20 @@
 
 # Remove Duplicates from Sorted Array -
 
-# def removedubli(arr, num):
+def removedubli(arr, num):
     
-#     n = 2
+    n = 2
     
-#     for i in range(n-2, len(num)):
-#         if num[i] != num[n-2]:
-#             num[n] = num[i]
-#             n += 1
+    for i in range(n-2, len(num)):
+        if num[i] != num[n-2]:
+            num[n] = num[i]
+            n += 1
             
-#     return n
+    return n
 
-# arr = [4,5,6,7,7,8,9]
-# num = len(arr)
-# print(removedubli(arr, num))
+arr = [4,5,6,7,7,8,9]
+num = len(arr)
+print(removedubli(arr, num))
 
 # same code with correction - 
 
@@ -36,3 +36,21 @@ def removedubli(arr):
 arr = [4, 5, 6, 7, 7, 8, 9]
 result = removedubli(arr)
 print(result)  # Output: [4, 5, 6, 7, 8, 9]
+
+# same code without comments - 
+
+def removedubli(arr):
+    if not arr:
+        return arr  
+ 
+    unique_elements = []
+    
+    for num in arr:
+        if num not in unique_elements:
+            unique_elements.append(num)   
+
+    return unique_elements
+
+arr = [4, 5, 6, 7, 7, 8, 9]
+result = removedubli(arr)
+print(result)   
