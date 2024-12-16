@@ -1,52 +1,52 @@
 
-# # Remove Duplicates from Sorted Array - leetcode (easy) 
+# Remove Duplicates from Sorted Array - leetcode (easy) 
 
-# class Solution(object):
-#     def removeDuplicates(self, nums):
-#         if not nums:
-#             return 0
+class Solution(object):
+    def removeDuplicates(self, nums):
+        if not nums:
+            return 0
         
-#         k = 1  # Initialize the count of unique elements to 1
-#         for i in range(1, len(nums)):
-#             if nums[i] != nums[i - 1]:
-#                 nums[k] = nums[i]  # Overwrite the next unique element
-#                 k += 1
+        k = 1  # Initialize the count of unique elements to 1
+        for i in range(1, len(nums)):
+            if nums[i] != nums[i - 1]:
+                nums[k] = nums[i]  # Overwrite the next unique element
+                k += 1
         
-#         return k
+        return k
     
-# # Remove Duplicates from Sorted Array II - leetcode (medium)
+# Remove Duplicates from Sorted Array II - leetcode (medium)
 
-# # class Solution:
-# def removeDuplicates(arr, nums):
+# class Solution:
+def removeDuplicates(arr, nums):
     
-#     k = 2
+    k = 2
 
-#     for i in range(2, len(nums)):
-#         if nums[i] != nums[k - 2]:
-#             nums[k] = nums[i]
-#             k += 1 
+    for i in range(2, len(nums)):
+        if nums[i] != nums[k - 2]:
+            nums[k] = nums[i]
+            k += 1 
 
-#     return k
+    return k
 
-# arr = [8,8,9,3,4,5]
-# nums = len(arr)
-# print(removeDuplicates(arr,nums))
+arr = [8,8,9,3,4,5]
+nums = len(arr)
+print(removeDuplicates(arr,nums))
 
 # solve once again this problem - 
 
-def removedubli(arr, num):
+# def removedubli(arr, num):
     
-    n = 2
+#     n = 2
     
-    for i in range(2, len(num)):
-        if num[i] != num[n-2]:
-            num[n] = num[i]
-            n += 1
+#     for i in range(2, len(num)):
+#         if num[i] != num[n-2]:
+#             num[n] = num[i]
+#             n += 1
             
-    return n
+#     return n
 
-arr = [4,5,6,7,7,8,9]
-num = len(arr)
-print(removedubli(arr, num))
+# arr = [4,5,6,7,7,8,9]
+# num = len(arr)
+# print(removedubli(arr, num))
     
     
