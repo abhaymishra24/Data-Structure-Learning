@@ -74,7 +74,7 @@ def removedubli(arr, num):
     
     n = 2
     
-    for i in range(2, len(num)):
+    for i in range(n-2, len(num)):
         if num[i] != num[n-2]:
             num[n] = num[i]
             n += 1
