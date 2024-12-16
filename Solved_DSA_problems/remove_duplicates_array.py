@@ -14,40 +14,40 @@ class Solution(object):
         
         return k
     
-# Remove Duplicates from Sorted Array II - leetcode (medium)
+Remove Duplicates from Sorted Array II - leetcode (medium)
 
-# class Solution:
-# def removeDuplicates(arr, nums):
+class Solution:
+def removeDuplicates(arr, nums):
     
-#     k = 2
+    k = 2
 
-#     for i in range(2, len(nums)):
-#         if nums[i] != nums[k - 2]:
-#             nums[k] = nums[i]
-#             k += 1 
+    for i in range(2, len(nums)):
+        if nums[i] != nums[k - 2]:
+            nums[k] = nums[i]
+            k += 1 
 
-#     return k
+    return k
 
-# arr = [8,8,9,3,4,5]
-# nums = len(arr)
-# print(removeDuplicates(arr,nums))
+arr = [8,8,9,3,4,5]
+nums = len(arr)
+print(removeDuplicates(arr,nums))
 
-# solve once again this problem - 
+solve once again this problem - 
 
-# def removedubli(arr, num):
+def removedubli(arr, num):
     
-#     n = 2
+    n = 2
     
-#     for i in range(2, len(num)):
-#         if num[i] != num[n-2]:
-#             num[n] = num[i]
-#             n += 1
+    for i in range(2, len(num)):
+        if num[i] != num[n-2]:
+            num[n] = num[i]
+            n += 1
             
-#     return n
+    return n
 
-# arr = [4,5,6,7,7,8,9]
-# num = len(arr)
-# print(removedubli(arr, num))
+arr = [4,5,6,7,7,8,9]
+num = len(arr)
+print(removedubli(arr, num))
     
 # here I solve a same problem with help of set - 
 
