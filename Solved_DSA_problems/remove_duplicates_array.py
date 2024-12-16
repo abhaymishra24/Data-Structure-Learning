@@ -32,3 +32,8 @@ arr = [8,8,9,3,4,5]
 nums = len(arr)
 print(removeDuplicates(arr,nums))
 
+# solve once again this problem - 
+
+def removedubli(arr, num):
+    
+    
