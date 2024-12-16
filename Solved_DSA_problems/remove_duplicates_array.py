@@ -17,20 +17,20 @@ class Solution(object):
 # Remove Duplicates from Sorted Array II - leetcode (medium)
 
 # class Solution:
-def removeDuplicates(arr, nums):
+# def removeDuplicates(arr, nums):
     
-    k = 2
+#     k = 2
 
-    for i in range(2, len(nums)):
-        if nums[i] != nums[k - 2]:
-            nums[k] = nums[i]
-            k += 1 
+#     for i in range(2, len(nums)):
+#         if nums[i] != nums[k - 2]:
+#             nums[k] = nums[i]
+#             k += 1 
 
-    return k
+#     return k
 
-arr = [8,8,9,3,4,5]
-nums = len(arr)
-print(removeDuplicates(arr,nums))
+# arr = [8,8,9,3,4,5]
+# nums = len(arr)
+# print(removeDuplicates(arr,nums))
 
 # solve once again this problem - 
 
@@ -49,4 +49,13 @@ print(removeDuplicates(arr,nums))
 # num = len(arr)
 # print(removedubli(arr, num))
     
-    
+# here I solve a same problem with help of set - 
+
+def remove_duplicates_set(arr):
+    return list(set(arr))
+
+# Example usage
+arr = [10, 20, 20, 30, 40, 40, 50]
+result = remove_duplicates_set(arr)
+print(result)  # Output: [40, 10, 20, 30, 50] (order may vary)
+
