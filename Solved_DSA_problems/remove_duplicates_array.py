@@ -36,4 +36,9 @@ print(removeDuplicates(arr,nums))
 
 def removedubli(arr, num):
     
+    n = 2
+    
+    for i in range(2, len(num)):
+        if 
+    
     
