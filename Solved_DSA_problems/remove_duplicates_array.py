@@ -59,3 +59,11 @@ arr = [10, 20, 20, 30, 40, 40, 50]
 result = remove_duplicates_set(arr)
 print(result)  # Output: [40, 10, 20, 30, 50] (order may vary)
 
+# same code in set method without comment - 
+
+def remove_duplicates_set(arr):
+    return list(set(arr))
+
+arr = [10, 20, 20, 30, 40, 40, 50]
+result = remove_duplicates_set(arr)
+print(result)   
