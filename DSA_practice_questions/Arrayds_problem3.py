@@ -1,23 +1,6 @@
 
 # Remove Duplicates from Sorted Array -
 
-def removedubli(arr, num):
-    
-    n = 2
-    
-    for i in range(n-2, len(num)):
-        if num[i] != num[n-2]:
-            num[n] = num[i]
-            n += 1
-            
-    return n
-
-arr = [4,5,6,7,7,8,9]
-num = len(arr)
-print(removedubli(arr, num))
-
-# same code with correction - 
-
 def removedubli(arr):
     if not arr:
         return arr  # Return an empty list if input is empty
@@ -53,4 +36,13 @@ def removedubli(arr):
 
 arr = [4, 5, 6, 7, 7, 8, 9]
 result = removedubli(arr)
-print(result)   
+print(result) 
+
+# same code in set method without comment - 
+
+def remove_duplicates_set(arr):
+    return list(set(arr))
+
+arr = [10, 20, 20, 30, 40, 40, 50]
+result = remove_duplicates_set(arr)
+print(result) 
