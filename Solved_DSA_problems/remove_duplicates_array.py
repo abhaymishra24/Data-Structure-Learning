@@ -55,3 +55,8 @@ print(result)
 
 def remove_dublicate(arr):
     
+    return list(set(arr))
+
+arr = [3,4,5,6,7,8,8,9,9]
+result = remove_dublicate
+print(result)
