@@ -96,7 +96,7 @@ def accur(arr, t, n):
     else:
         print("not found")
         
-arr = [4,5,6,7,8,8,9,3]
+arr = [4,5,6,7,8,4,9,3,8]
 t = len(arr)
 n = 8
 accur(arr, t, n)
@@ -124,3 +124,18 @@ arr = [5,6,7,8,9,0,0,3]
 number = len(arr)
 tar = 0
 acurrence(arr, number, tar)
+
+# Using list methods: You can use the index() method to find the first occurrence
+# and a combination of len() and index() methods to find the last occurrence.
+
+def first_and_last_occurrence(arr, target):
+    first_occurrence = arr.index(target)
+    last_occurrence = len(arr) - 1 - arr[::-1].index(target)
+    return first_occurrence, last_occurrence
+
+# Example usage:
+arr = [1, 2, 3, 4, 2, 5, 6, 2, 7, 8]
+target = 2
+first, last = first_and_last_occurrence(arr, target)
+print(f"First occurrence of {target} is at index {first}")
+print(f"Last occurrence of {target} is at index {last}")
