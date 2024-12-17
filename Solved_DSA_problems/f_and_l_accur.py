@@ -171,3 +171,28 @@ target = 2
 first, last = first_and_last_occurrence(arr, target)
 print(f"First occurrence of {target} is at index {first}")
 print(f"Last occurrence of {target} is at index {last}")
+
+
+# Same problem with sorting method -
+
+def acurrence(arr, number, tar):
+    
+    first = -1
+    last = -1
+    
+    for i in range(0, number):
+        if (number != arr[i]):
+            continue
+        if (first == -1):
+            first = i
+        last = i
+        
+    if (first != -1):
+        print((first), (last))
+    else:
+        print("Not found")
+        
+arr = [5,6,7,8,9,0,0,3]
+number = len(arr)
+tar = 0
+acurrence(arr, number, tar)
