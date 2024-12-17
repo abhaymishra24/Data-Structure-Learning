@@ -51,3 +51,7 @@ arr = [4, 5, 6, 7, 7, 8, 9]
 result = removedubli(arr)
 print(result)   
 
+# solve problem with help of set - 
+
+def remove_dublicate(arr):
+    
