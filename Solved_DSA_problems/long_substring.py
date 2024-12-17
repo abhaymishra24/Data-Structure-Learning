@@ -165,3 +165,22 @@ def longest_unique_substring(s):
 # Example usage
 s = "abcabcbb"
 print(f"The length of the longest substring without repeating characters is: {longest_unique_substring(s)}")
+
+# xplanation:
+# char_map: A dictionary to store the last index of each character.
+
+# max_length: Keeps track of the length of the longest substring found.
+
+# start: The start index of the current substring.
+
+# Steps:
+
+# Iterate over each character in the string with the end pointer.
+
+# If the character is already in the map and the start pointer is less than or equal to the character's index, update the start pointer.
+
+# Update the last index of the character in the map.
+
+# Calculate the current length of the substring and update max_length if it’s greater than the previous max_length.
+
+# This approach ensures we traverse the string only once, making it efficient with a time complexity of O(n).
