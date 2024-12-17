@@ -196,3 +196,17 @@ arr = [5,6,7,8,9,0,0,3]
 number = len(arr)
 tar = 0
 acurrence(arr, number, tar)
+
+# same problem using list method - 
+
+def first_and_last_occurrence(arr, target):
+    first_occurrence = arr.index(target)
+    last_occurrence = len(arr) - 1 - arr[::-1].index(target)
+    return first_occurrence, last_occurrence
+
+# Example usage:
+arr = [1, 2, 3, 4, 2, 5, 6, 2, 7, 8]
+target = 2
+first, last = first_and_last_occurrence(arr, target)
+print(f"First occurrence of {target} is at index {first}")
+print(f"Last occurrence of {target} is at index {last}")
