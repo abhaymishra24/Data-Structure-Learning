@@ -147,3 +147,27 @@ print(f"Last occurrence of {target} is at index {last}")
 # arr[::-1].index(target) reverses the list and then finds the index of the first occurrence of target in the reversed list.
 
 # len(arr) - 1 - arr[::-1].index(target) calculates the index of the last occurrence of target in the original list.
+
+# using dictionery method - 
+
+def first_and_last_occurrence(arr, target):
+    occurrence_dict = {}
+    
+    for index, value in enumerate(arr):
+        if value not in occurrence_dict:
+            occurrence_dict[value] = [index, index]  # First and last occurrence are the same initially
+        else:
+            occurrence_dict[value][1] = index  # Update the last occurrence
+    
+    if target in occurrence_dict:
+        first_index, last_index = occurrence_dict[target]
+        return first_index, last_index
+    else:
+        return None, None  # Target not found
+
+# Example usage:
+arr = [1, 2, 3, 4, 2, 5, 6, 2, 7, 8]
+target = 2
+first, last = first_and_last_occurrence(arr, target)
+print(f"First occurrence of {target} is at index {first}")
+print(f"Last occurrence of {target} is at index {last}")
