@@ -139,3 +139,11 @@ target = 2
 first, last = first_and_last_occurrence(arr, target)
 print(f"First occurrence of {target} is at index {first}")
 print(f"Last occurrence of {target} is at index {last}")
+
+#Explanation:
+
+# arr.index(target) returns the index of the first occurrence of target in the list arr.
+
+# arr[::-1].index(target) reverses the list and then finds the index of the first occurrence of target in the reversed list.
+
+# len(arr) - 1 - arr[::-1].index(target) calculates the index of the last occurrence of target in the original list.
