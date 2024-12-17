@@ -146,3 +146,22 @@ def longeststring(a):
 
 a = "abhaybhiaabhay"
 print(longeststring(a)) 
+
+# same question solve with new method - 
+
+def longest_unique_substring(s):
+    char_map = {}
+    max_length = 0
+    start = 0
+
+    for end in range(len(s)):
+        if s[end] in char_map:
+            start = max(start, char_map[s[end]] + 1)
+        char_map[s[end]] = end
+        max_length = max(max_length, end - start + 1)
+
+    return max_length
+
+# Example usage
+s = "abcabcbb"
+print(f"The length of the longest substring without repeating characters is: {longest_unique_substring(s)}")
