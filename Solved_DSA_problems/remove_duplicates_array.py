@@ -79,3 +79,12 @@ def dublicates(arr):
 arr = [8,6,7,7,8,9,9,0,0]
 rr = dublicates(arr)
 print(rr)
+
+# same question solve once agian - 
+
+def rdubli(arr):
+    return list(set(arr))
+
+arr = [5,5,6,7,8,8,9]
+res = rdubli(arr)
+print(res)
