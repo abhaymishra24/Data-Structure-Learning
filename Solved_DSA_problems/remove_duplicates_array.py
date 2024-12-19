@@ -88,3 +88,6 @@ def rdubli(arr):
 arr = [5,5,6,7,8,8,9]
 res = rdubli(arr)
 print(res)
+
+# solve this question - 
+
