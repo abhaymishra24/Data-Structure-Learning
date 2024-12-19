@@ -91,3 +91,9 @@ print(res)
 
 # solve this question - 
 
+def dar(a):
+    return list(set(a))
+
+a = [6,7,8,9,4,4,5,5,7,0,0]
+b = dar(a)
+print(b)
