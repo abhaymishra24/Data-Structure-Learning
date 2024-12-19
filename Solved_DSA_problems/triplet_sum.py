@@ -319,4 +319,17 @@ ar = [2,3,4,5,6]
 g = 8
 numb(ar, g)
 
-# to be conitnue
+
+# solve again 
+
+def sum(a, t):
+    
+    l = len(a)
+    
+    for i in range(l-2):
+        for j in range(i+1, l-1):
+            for k in range(j+1, l):
+                if a[i] + a[j] + a[k] == t:
+                    print(a[i], a[j], a[k])
+                    return True
+                
