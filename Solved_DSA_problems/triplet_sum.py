@@ -333,3 +333,8 @@ def sum(a, t):
                     print(a[i], a[j], a[k])
                     return True
                 
+    return False
+
+a = [2,3,4,5,6,7]
+t = 8
+print(sum(a, t))
