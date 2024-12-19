@@ -97,3 +97,12 @@ def dar(a):
 a = [6,7,8,9,4,4,5,5,7,0,0]
 b = dar(a)
 print(b)
+
+# again solve same question -
+
+def dubr(r):
+    return list(set(r))
+
+r = [5,6,7,8,8,9,9]
+rb = dubr(r)
+print(rb)
