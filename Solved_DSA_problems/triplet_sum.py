@@ -336,5 +336,5 @@ def sum(a, t):
     return False
 
 a = [2,3,4,5,6,7]
-t = 8
-print(sum(a, t))
+t = 10
+sum(a, t)
