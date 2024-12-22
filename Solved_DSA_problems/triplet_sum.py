@@ -339,3 +339,10 @@ a = [2,3,4,5,6,7]
 t = 10
 sum(a, t)
 
+# here solve again - 
+
+def s(n, t):
+    
+    i = len(n)
+    
+    for i in range()
