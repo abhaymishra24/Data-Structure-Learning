@@ -349,7 +349,7 @@ def s(n, t):
         for j in range(i+1, m-1):
             for k in range(j+1, m):
                 if n[i] + n[j] + n[k] == t:
-                    print("number is = {n[i]}, {n[j]}, {n[k]}")
+                    print(f"number is = {n[i]}, {n[j]}, {n[k]}.")
                     return True
     
     return False
