@@ -351,5 +351,10 @@ def s(n, t):
                 if n[i] + n[j] + n[k] == t:
                     print("number is = {n[i]}, {n[j]}, {n[k]}")
                     return True
-                
+    
+    return False
+
+n = [2,3,4,5,6,7,7]
+t = 11
+s(n, t)
         
