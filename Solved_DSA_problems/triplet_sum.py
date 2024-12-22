@@ -343,6 +343,13 @@ sum(a, t)
 
 def s(n, t):
     
-    i = len(n)
+    m = len(n)
     
-    for i in range()
+    for i in range(m-2):
+        for j in range(i+1, m-1):
+            for k in range(j+1, m):
+                if n[i] + n[j] + n[k] == t:
+                    print("number is = {n[i]}, {n[j]}, {n[k]}")
+                    return True
+                
+        
