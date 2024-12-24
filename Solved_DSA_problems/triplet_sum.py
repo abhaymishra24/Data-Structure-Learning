@@ -370,7 +370,7 @@ def sum(arr, target):
             for k in range(j+1, n-1):
                 for l in range(k+1, n):
                     if arr[i] + arr[j] + arr[k] + arr[l] == target:
-                        print("number of target is = {arr[i]},{arr[j]},{arr[k]},{arr[l]}.")
+                        print(f"number of target is = {arr[i]},{arr[j]},{arr[k]},{arr[l]}.")
                         return True
                     
     return False
