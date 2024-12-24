@@ -378,3 +378,22 @@ def sum(arr, target):
 arr = [2,3,4,5,6,7,8,9]
 target = 15
 sum(arr, target)
+
+# here solve once again - 
+
+def sum(arr, taregt):
+    
+    n = len(arr)
+    
+    for i in range(n-2):
+        for j in range(i+1, n-1):
+            for k in range(j+1, n):
+                if arr[i] + arr[j] + arr[k] == taregt:
+                    print(f"the number - {arr[i]},{arr[j]},{arr[k]}.")
+                    return True
+                
+    return False
+
+arr = [2,3,4,5,6,7]
+taregt = 12
+sum(arr, taregt)

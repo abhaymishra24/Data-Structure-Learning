@@ -163,3 +163,13 @@ def second_large_valu(num):
 num = [23,45,67,89]
 second_value = second_large_valu(num)
 print(f"the number is = {second_value}")
+
+# here solve once again - 
+
+def second_large(n):
+    
+    return list(set(n))
+
+n = [2,3,4,5,6,7]
+second = second_large(n)
+print(second)
