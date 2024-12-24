@@ -1,147 +1,147 @@
 
 
-# # here we solve second largest value - 
+# here we solve second largest value - 
 
-# # with the help of (sorting value)
+# with the help of (sorting value)
 
-# def second_largest_sort(lst):
-#     lst.sort()  # Sort the list in ascending order
-#     return lst[-2]  # Return the second last element
+def second_largest_sort(lst):
+    lst.sort()  # Sort the list in ascending order
+    return lst[-2]  # Return the second last element
 
-# # Input from user
-# li = []
-# n = int(input("Enter size of list: "))
-# for i in range(n):
-#     e = int(input("Enter element of list: "))
-#     li.append(e)
+# Input from user
+li = []
+n = int(input("Enter size of list: "))
+for i in range(n):
+    e = int(input("Enter element of list: "))
+    li.append(e)
 
-# print("Second largest in", li, "is", second_largest_sort(li))
+print("Second largest in", li, "is", second_largest_sort(li))
 
-# # here we solve same question with diffenet method - 
+# here we solve same question with diffenet method - 
 
-# # solve this question with the (Removing the Maximum Element)
+# solve this question with the (Removing the Maximum Element)
 
-# def second_largest_remove_max(lst):
-#     max_value = max(lst)  # Find the maximum value
-#     lst.remove(max_value)  # Remove it from the list
-#     return max(lst)  # Return the new maximum, which is the second largest
+def second_largest_remove_max(lst):
+    max_value = max(lst)  # Find the maximum value
+    lst.remove(max_value)  # Remove it from the list
+    return max(lst)  # Return the new maximum, which is the second largest
 
-# # Input from user
-# li = []
-# n = int(input("Enter size of list: "))
-# for i in range(n):
-#     e = int(input("Enter element of list: "))
-#     li.append(e)
+# Input from user
+li = []
+n = int(input("Enter size of list: "))
+for i in range(n):
+    e = int(input("Enter element of list: "))
+    li.append(e)
 
-# print("Second largest in", li, "is", second_largest_remove_max(li))
+print("Second largest in", li, "is", second_largest_remove_max(li))
 
 
 # Here solved without comment -
 
-# # with the help of (sorting value)
+# with the help of (sorting value)
 
-# def second_largest_sort(lst):
-#     lst.sort()   
-#     return lst[-2]   
+def second_largest_sort(lst):
+    lst.sort()   
+    return lst[-2]   
 
-# li = []
-# n = int(input("Enter size of list: "))
-# for i in range(n):
-#     e = int(input("Enter element of list: "))
-#     li.append(e)
+li = []
+n = int(input("Enter size of list: "))
+for i in range(n):
+    e = int(input("Enter element of list: "))
+    li.append(e)
 
-# print("Second largest in", li, "is", second_largest_sort(li))
+print("Second largest in", li, "is", second_largest_sort(li))
 
 
-# # solve this question with the (Removing the Maximum Element)
+# solve this question with the (Removing the Maximum Element)
 
-# def second_largest_remove_max(lst):
-#     max_value = max(lst)   
-#     lst.remove(max_value)  
-#     return max(lst)   
+def second_largest_remove_max(lst):
+    max_value = max(lst)   
+    lst.remove(max_value)  
+    return max(lst)   
  
-# li = []
-# n = int(input("Enter size of list: "))
-# for i in range(n):
-#     e = int(input("Enter element of list: "))
-#     li.append(e)
+li = []
+n = int(input("Enter size of list: "))
+for i in range(n):
+    e = int(input("Enter element of list: "))
+    li.append(e)
 
-# print("Second largest in", li, "is", second_largest_remove_max(li))
+print("Second largest in", li, "is", second_largest_remove_max(li))
 
-# # solve second largest number with the help of Hashmap - 
+# solve second largest number with the help of Hashmap - 
 
-# def second_largest(numbers):
-#     # Use a set to store unique numbers
-#     unique_numbers = set(numbers)
+def second_largest(numbers):
+    # Use a set to store unique numbers
+    unique_numbers = set(numbers)
 
-#     # Check if there are at least two unique numbers
-#     if len(unique_numbers) < 2:
-#         return None  # Not enough unique numbers
+    # Check if there are at least two unique numbers
+    if len(unique_numbers) < 2:
+        return None  # Not enough unique numbers
 
-#     # Convert the set back to a list and sort it
-#     sorted_numbers = sorted(unique_numbers)
+    # Convert the set back to a list and sort it
+    sorted_numbers = sorted(unique_numbers)
 
-#     # Return the second largest number
-#     return sorted_numbers[-2]
+    # Return the second largest number
+    return sorted_numbers[-2]
 
-# # Example usage
-# numbers = [12, 35, 1, 10, 34, 1]
-# result = second_largest(numbers)
+# Example usage
+numbers = [12, 35, 1, 10, 34, 1]
+result = second_largest(numbers)
 
-# if result is not None:
-#     print(f"The second largest number is: {result}")
-# else:
-#     print("There are not enough unique numbers to determine the second largest.")
+if result is not None:
+    print(f"The second largest number is: {result}")
+else:
+    print("There are not enough unique numbers to determine the second largest.")
 
 
-# # same code without comments - 
+# same code without comments - 
 
-# def second_largest(numbers):
+def second_largest(numbers):
    
-#     unique_numbers = set(numbers)
+    unique_numbers = set(numbers)
 
-#     if len(unique_numbers) < 2:
-#         return None   
+    if len(unique_numbers) < 2:
+        return None   
 
-#     sorted_numbers = sorted(unique_numbers)
+    sorted_numbers = sorted(unique_numbers)
 
-#     return sorted_numbers[-2]
+    return sorted_numbers[-2]
 
-# numbers = [12, 35, 1, 10, 34, 1]
-# result = second_largest(numbers)
+numbers = [12, 35, 1, 10, 34, 1]
+result = second_largest(numbers)
 
-# if result is not None:
-#     print(f"The second largest number is: {result}")
-# else:
-#     print("There are not enough unique numbers to determine the second largest.")
+if result is not None:
+    print(f"The second largest number is: {result}")
+else:
+    print("There are not enough unique numbers to determine the second largest.")
 
-# # find out second largest number using sorting array
+# find out second largest number using sorting array
 
-# def second_largest_sorting(numbers):
-#     numbers.sort(reverse=True)
-#     return numbers[1]
+def second_largest_sorting(numbers):
+    numbers.sort(reverse=True)
+    return numbers[1]
 
-# numbers = [12, 45, 2, 41, 31, 10, 45, 65, 78]
-# second_largest = second_largest_sorting(numbers)
-# print("Second largest number:", second_largest)
+numbers = [12, 45, 2, 41, 31, 10, 45, 65, 78]
+second_largest = second_largest_sorting(numbers)
+print("Second largest number:", second_largest)
 
-# # same question solve with comments - 
+# same question solve with comments - 
 
-# def second_largest_sorting(numbers):
-#     # Sort the list of numbers in descending order (largest to smallest)
-#     numbers.sort(reverse=True)
+def second_largest_sorting(numbers):
+    # Sort the list of numbers in descending order (largest to smallest)
+    numbers.sort(reverse=True)
     
-#     # Return the second element in the sorted list, which is the second largest number
-#     return numbers[1]
+    # Return the second element in the sorted list, which is the second largest number
+    return numbers[1]
 
-# # Example list of numbers
-# numbers = [12, 45, 2, 41, 31, 10, 45, 65, 78]
+# Example list of numbers
+numbers = [12, 45, 2, 41, 31, 10, 45, 65, 78]
 
-# # Call the function to find the second largest number
-# second_largest = second_largest_sorting(numbers)
+# Call the function to find the second largest number
+second_largest = second_largest_sorting(numbers)
 
-# # Print the result
-# print("Second largest number:", second_largest)
+# Print the result
+print("Second largest number:", second_largest)
 
 # solve once again - 
 
@@ -152,3 +152,14 @@ def second_largest_sorting(numbers):
 numbers = [12, 45, 2, 41, 31, 10, 45, 65, 78]
 second_largest = second_largest_sorting(numbers)
 print("Second largest number:", second_largest)
+
+# solve again with same method - 
+
+def second_large_valu(num):
+    
+    num.sort(reverse=True)
+    return num[1]
+
+num = [23,45,67,89]
+second_value = second_large_valu(num)
+print(f"the number is = {second_value}")
