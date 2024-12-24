@@ -357,3 +357,18 @@ def s(n, t):
 n = [2,3,4,5,6,7,7]
 t = 11
 s(n, t)
+
+
+# here solve once again - 
+
+def sum(arr, target):
+    
+    n = len(arr)
+    
+    for i in range(n-3):
+        for j in range(i+1, n-2):
+            for k in range(j+1, n-1):
+                for l in range(k+1, n):
+                    if arr[i] + arr[j] + arr[k] + arr[l] == target:
+                        print("number of target is = {arr[i]},{arr[j]},{arr[k]},{arr[l]}.")
+                        return True
