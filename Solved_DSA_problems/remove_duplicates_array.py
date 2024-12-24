@@ -106,3 +106,12 @@ def dubr(r):
 r = [5,6,7,8,8,9,9]
 rb = dubr(r)
 print(rb)
+
+# solve again this question - 
+
+def remove_dubli(num):
+    return list(set(num))
+
+num = [4,5,6,7,3,3,4,5]
+remove = remove_dubli(num)
+print(remove)
