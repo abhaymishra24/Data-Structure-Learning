@@ -60,3 +60,14 @@ def second_large(n):
 num = [2,3,4,5,6,7]
 second = second_large(num)
 print(second)
+
+# solve again tis one - 
+
+def sec_large(n):
+    
+    n.sort(reverse=True)
+    return n[1]
+
+n = [3,4,5,8,9]
+value = sec_large(n)
+print(value)
