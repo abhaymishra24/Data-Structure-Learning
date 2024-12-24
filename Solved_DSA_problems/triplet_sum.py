@@ -372,3 +372,9 @@ def sum(arr, target):
                     if arr[i] + arr[j] + arr[k] + arr[l] == target:
                         print("number of target is = {arr[i]},{arr[j]},{arr[k]},{arr[l]}.")
                         return True
+                    
+    return False
+
+arr = [2,3,4,5,6,7,8,9]
+target = 15
+sum(arr, target)
