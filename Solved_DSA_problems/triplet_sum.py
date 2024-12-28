@@ -397,3 +397,22 @@ def sum(arr, taregt):
 arr = [2,3,4,5,6,7]
 taregt = 12
 sum(arr, taregt)
+
+# write again same code -
+
+def sum(arr, target):
+    
+    n = len(arr)
+    
+    for i in range(n-2):
+        for j in range(i+1, n-1):
+            for k in range(j+1, n):
+                if arr[i] + arr[j] + arr[k] == taregt:
+                    print(arr[i],arr[j], arr[k])
+                    return True
+                
+    return False
+
+arr = [3,4,5,6,7,8]
+target = 12
+sum(arr, target)
