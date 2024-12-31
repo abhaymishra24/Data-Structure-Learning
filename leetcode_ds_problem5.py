@@ -33,3 +33,8 @@ class Solution(object):
 
 # write code here for leet code - 
 
+# find out minimum cost for ticket - 
+
+def minimum_cost_ticket(self, days, costs):
+    
+    
