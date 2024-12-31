@@ -38,3 +38,18 @@ class Solution(object):
 def minimum_cost_ticket(self, days, costs):
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
