@@ -30,3 +30,6 @@ class Solution(object):
                 return i
         return -1
     
+
+# write code here for leet code - 
+
