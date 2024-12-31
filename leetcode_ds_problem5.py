@@ -36,20 +36,3 @@ class Solution(object):
 # find out minimum cost for ticket - 
 
 def minimum_cost_ticket(self, days, costs):
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
