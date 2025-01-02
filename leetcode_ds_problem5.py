@@ -33,3 +33,8 @@ class Solution(object):
 
 # write code here for leet code - 
 
+def count_string_num(words, queris):
+    
+    w = len(words)
+    
+
