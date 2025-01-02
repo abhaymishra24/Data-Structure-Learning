@@ -33,6 +33,8 @@
 
 # write code here for leet code - 
 
+# count vowel num in range - 
+
 def count_string_num(words, queries):
     
         n = len(words)
