@@ -35,20 +35,3 @@
 
 def count_string_num(words, queris):
     
-    w = len(words)
-    q = len(queris)
-    
-    for i in range(w-1):
-        for j in range(q-1):
-            if words[i] == queris[j]:
-                print(len(queris))
-                return True
-            
-    return False
-
-words = ["aba", "bcb", "ece", "aa", "e"]
-queris = [[0,2],[1,4],[1,1]]
-count_string_num(words, queris)
-            
-
-
