@@ -33,7 +33,7 @@ class Solution(object):
 
 # write code here for leet code - 
 
-# count vowel num in range - 
+# count vowel num in range - ( Use prefix sum method Algo)
 
 def count_string_num(words, queries):
     
