@@ -23,6 +23,9 @@ print(r)
 
 # same question with different method - 
 
+# Using List Comprehension
+# This method creates a new list with non-zero elements followed by the appropriate number of zeros.
+
 def movezero(nums):
     # Create a new list with non-zero elements followed by zeros
     non_zero_elements = [num for num in nums if num != 0]
