@@ -1,4 +1,7 @@
 
+
+# solve with pointer - 
+
 def movezero(nums):
     
     last_zero = 0
@@ -17,3 +20,18 @@ def movezero(nums):
 nums = [0,1,0,3,12]
 r = movezero(nums)
 print(r)
+
+# same question with different method - 
+
+def movezero(nums):
+    # Create a new list with non-zero elements followed by zeros
+    non_zero_elements = [num for num in nums if num != 0]
+    zero_count = len(nums) - len(non_zero_elements)
+    
+    # Extend the list with zeros
+    return non_zero_elements + [0] * zero_count
+
+# Example usage
+nums = [0, 1, 0, 3, 12]
+r = movezero(nums)
+print(r)  # Output: [1, 3, 12, 0, 0]
