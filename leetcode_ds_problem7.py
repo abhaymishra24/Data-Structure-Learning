@@ -40,12 +40,3 @@
 # print(r)  # Output: [1, 3, 12, 0, 0]
 
 # solve leetcode question - 
-
-def count_pref_number(self, words, prefix):
-    
-    prefix = 0
-
-    for i in range(len(words)):
-        if words[i] == prefix:
-            print()
-        
