@@ -19,13 +19,3 @@ class Solution(object):
         # Step 3: Return the minimum length after deletions
         return len(s) - delete_count
         
-
-
-
-
-
-        """
-        :type s: str
-        :rtype: int
-        """
-        
