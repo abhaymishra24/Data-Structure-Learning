@@ -5,6 +5,7 @@
 
 class Solution(object):
     def minimumLength(self, s):
+        
         # Step 1: Count the frequency of each character in the string
         char_frequency_map = Counter(s)
 
