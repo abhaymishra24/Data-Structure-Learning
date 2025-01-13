@@ -1,1 +1,31 @@
 
+# find out minimum length of string after operation - 
+
+class Solution(object):
+    def minimumLength(self, s):
+        # Step 1: Count the frequency of each character in the string
+        char_frequency_map = Counter(s)
+
+        # Step 2: Calculate the number of characters to delete
+        delete_count = 0
+        for frequency in char_frequency_map.values():
+            if frequency % 2 == 1:
+                # If frequency is odd, delete all except one
+                delete_count += frequency - 1
+            else:
+                # If frequency is even, delete all except two
+                delete_count += frequency - 2
+
+        # Step 3: Return the minimum length after deletions
+        return len(s) - delete_count
+        
+
+
+
+
+
+        """
+        :type s: str
+        :rtype: int
+        """
+        
