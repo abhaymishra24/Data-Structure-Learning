@@ -1,4 +1,6 @@
 
+# this is codechef contest question - 
+
 def entry_check(age):
   
         if age >= 10:    
