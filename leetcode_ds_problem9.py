@@ -1,8 +1,9 @@
 
+## his is the question of leetcode - 
+
 # An array is considered special if every pair of its adjacent elements contains two numbers with different parity.
-
 # You are given an array of integers nums. Return true if nums is a special array, otherwise, return false.
-
+ # this is answer - 
 class Solution(object):
     def isArraySpecial(self, nums):
         for i in range(len(nums) - 1):
