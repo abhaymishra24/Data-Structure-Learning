@@ -24,7 +24,7 @@ In this project, I am working on various Data Structure techniques's questions a
 - Try to develop skills in a variety of areas, including artificial intelligence, Database Management, data science, machine learning, etc.
 - Try to explore new things in technology using the Data Structure and algorithms methods in different programming languages.
 
-### Practice and Learning by- [ Abhay Mishra 🧑‍💻 ]
+### Practice and learning by- [ Abhay Mishra 🧑‍💻 ]
 
 I aim to learn new solutions and tackle Data Structure methods programming challenges ranging from basic to advanced levels. Learning new methods and features in Data Structure to upskill myself. Learn how to use the Data Structure techniques in different technologies and build real-world projects.
 
