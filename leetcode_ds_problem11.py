@@ -21,7 +21,7 @@
 
 
 
-def sum(n, t):
+def find_sum(n, t):
     
     k = len(n)
     
@@ -30,7 +30,7 @@ def sum(n, t):
             for l in range(j+1, k-2):
                 for m in range(l+1, k-1):
                     for p in range(m+1, k):
-                        if n[i] + n[j] + n[l] + n[m] + [p] == t:
+                        if n[i] + n[j] + n[l] + n[m] + n[p] == t:
                             print(n[i], n[j], n[l], n[m], n[p])
                             return True
     
@@ -38,5 +38,5 @@ def sum(n, t):
 
 n = [3,4,5,6,7,8,9]
 t = 25
-sum = (n,t)
+find_sum = (n,t)
                 
