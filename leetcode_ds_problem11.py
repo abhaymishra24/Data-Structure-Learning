@@ -18,3 +18,4 @@ class Solution(object):
 s = Solution()
 nums = [1, 2, 3, 4, 5]
 print(s.countSubarrays(nums))  # Output: 0
+
