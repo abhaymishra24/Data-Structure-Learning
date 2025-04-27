@@ -38,5 +38,5 @@ def find_sum(n, t):
 
 n = [3,4,5,6,7,8,9]
 t = 25
-find_sum = (n,t)
+find_sum(n, t)
                 
