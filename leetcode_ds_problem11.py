@@ -1,7 +1,7 @@
 
 # here we solve leed code (Easy) problem - 
 
-# Given an integer array nums, return the number of subarrays of length 3 such that the sum of
+# Question -  Given an integer array nums, return the number of subarrays of length 3 such that the sum of
 # the first and third numbers equals exactly half of the second number.
 
 # here solution is - 
@@ -17,10 +17,10 @@ class Solution(object):
     
 s = Solution()
 nums = [1, 2, 3, 4, 5]
-print(s.countSubarrays(nums))  # Output: 0
+print(s.countSubarrays(nums))   
 
 
-# 2962 leetcode problem - 
+# 2962 leetcode problem (Medium) - 
 
 # Question: You are given an integer array nums and a positive integer k.
 # Return the number of subarrays where the maximum element of nums appears at least k times in that subarray.
@@ -49,4 +49,4 @@ class Solution:
 s = Solution()
 nums = [1, 3, 2, 3, 3]
 k = 2
-print(s.countSubarrays(nums, k))  # Output: 4
+print(s.countSubarrays(nums, k))   
