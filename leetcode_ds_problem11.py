@@ -22,3 +22,33 @@
 
 # 2962 leetcode problem - 
 
+Question: You are given an integer array nums and a positive integer k.
+
+Return the number of subarrays where the maximum element of nums appears at least k times in that subarray.
+
+A subarray is a contiguous sequence of elements within an array.
+
+class Solution:
+    def countSubarrays(self, nums, k):
+        n = len(nums)
+        max_count = 0
+
+        for i in range(n):
+            max_elem = nums[i]
+            count = 0
+            for j in range(i, n):
+                if nums[j] == max_elem:
+                    count += 1
+                elif nums[j] > max_elem:
+                    max_elem = nums[j]
+                    count = 1
+                if count >= k:
+                    max_count += 1
+
+        return max_count
+
+# Example usage:
+s = Solution()
+nums = [1, 2, 2, 3, 2]
+k = 2
+print(s.countSubarrays(nums, k))  # Output: 4
