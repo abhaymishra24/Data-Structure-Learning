@@ -6,16 +6,19 @@
 
 # here solution is - 
 
-class Solution(object):
-    def countSubarrays(self, nums):
-        n = len(nums)
-        ans = 0
-        for i in range(1, n - 1):
-            if nums[i] == (nums[i - 1] + nums[i + 1]) * 2:
-                ans += 1
-        return ans
+# class Solution(object):
+#     def countSubarrays(self, nums):
+#         n = len(nums)
+#         ans = 0
+#         for i in range(1, n - 1):
+#             if nums[i] == (nums[i - 1] + nums[i + 1]) * 2:
+#                 ans += 1
+#         return ans
     
-s = Solution()
-nums = [1, 2, 3, 4, 5]
-print(s.countSubarrays(nums))  # Output: 0
+# s = Solution()
+# nums = [1, 2, 3, 4, 5]
+# print(s.countSubarrays(nums))  # Output: 0
+
+
+# 2962 leetcode problem - 
 
