@@ -6,27 +6,25 @@
 
 # here solution is - 
 
-# class Solution(object):
-#     def countSubarrays(self, nums):
-#         n = len(nums)
-#         ans = 0
-#         for i in range(1, n - 1):
-#             if nums[i] == (nums[i - 1] + nums[i + 1]) * 2:
-#                 ans += 1
-#         return ans
+class Solution(object):
+    def countSubarrays(self, nums):
+        n = len(nums)
+        ans = 0
+        for i in range(1, n - 1):
+            if nums[i] == (nums[i - 1] + nums[i + 1]) * 2:
+                ans += 1
+        return ans
     
-# s = Solution()
-# nums = [1, 2, 3, 4, 5]
-# print(s.countSubarrays(nums))  # Output: 0
+s = Solution()
+nums = [1, 2, 3, 4, 5]
+print(s.countSubarrays(nums))  # Output: 0
 
 
 # 2962 leetcode problem - 
 
-Question: You are given an integer array nums and a positive integer k.
-
-Return the number of subarrays where the maximum element of nums appears at least k times in that subarray.
-
-A subarray is a contiguous sequence of elements within an array.
+# Question: You are given an integer array nums and a positive integer k.
+# Return the number of subarrays where the maximum element of nums appears at least k times in that subarray.
+# A subarray is a contiguous sequence of elements within an array.
 
 class Solution:
     def countSubarrays(self, nums, k):
@@ -49,6 +47,6 @@ class Solution:
 
 # Example usage:
 s = Solution()
-nums = [1, 2, 2, 3, 2]
+nums = [1, 3, 2, 3, 3]
 k = 2
 print(s.countSubarrays(nums, k))  # Output: 4
