@@ -9,4 +9,7 @@ class Solution(object):
             if len(str(num)) % 2 == 0:
                 count += 1
         return count
-    
+
+s = Solution()
+nums = [12, 345, 2, 6, 7896]
+print(s.findNumbers(nums))  # Output: 2 (12 and 7896 have an even number of digits) 
