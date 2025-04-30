@@ -13,3 +13,16 @@ class Solution(object):
 s = Solution()
 nums = [34, 444, 22, 890, 11, 2]
 print(s.findNumbers(nums))  # Output: 2 (12 and 7896 have an even number of digits) 
+
+
+class Solution(object):
+    def findNumbers(self, nums):
+        count = 0
+        for num in nums:
+            if len(str(num)) % 2 == 0:
+                count += 1
+        return count
+
+s = Solution()
+nums = [34, 444, 22, 890, 11, 2]
+print(s.findNumbers(nums))
