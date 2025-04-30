@@ -11,5 +11,5 @@ class Solution(object):
         return count
 
 s = Solution()
-nums = [12, 345, 2, 6, 7896]
+nums = [34, 444, 22, 890, 11, 2]
 print(s.findNumbers(nums))  # Output: 2 (12 and 7896 have an even number of digits) 
