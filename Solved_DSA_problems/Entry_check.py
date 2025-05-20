@@ -1,26 +1,26 @@
 
-# # this is codechef contest question - 
+# this is codechef contest question - 
 
-# def entry_check(age):
+def entry_check(age):
   
-#         if age >= 10:    
-#             print("yes")
-#         else:    
-#             print("no")
+        if age >= 10:    
+            print("yes")
+        else:    
+            print("no")
         
-# x = int(input("Enter your age: "))
-# entry_check(x) 
+x = int(input("Enter your age: "))
+entry_check(x) 
 
-# def identity(nation):
+def identity(nation):
     
-#     if nation == 'Indian':
-#         print("Yes, entry")
+    if nation == 'Indian':
+        print("Yes, entry")
         
-#     else:
-#         print("No")
+    else:
+        print("No")
         
-# n = input("Enter your Nation: ")
-# identity(n)
+n = input("Enter your Nation: ")
+identity(n)
 
 
 # check once - 
