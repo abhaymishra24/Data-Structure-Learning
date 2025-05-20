@@ -20,6 +20,7 @@ class Solution {
     }
 }
 
+
 // This code is written in Python - for same problem -
 
 // class Solution:
