@@ -30,18 +30,18 @@ class Entrycheck:
     def country(name):
         name = input("Enter your Origin Nation:")
         if name == 'Australia':
-            print("Yes, acccepted")
-            print("Welcome to India")
+            print("Yes, acccepted.")
+            print("Welcome to India.")
         else:
-            print("No, Not accepted")
-            print("Sorry, Try with other country")
+            print("No, Not accepted.")
+            print("Sorry, Try with other country.")
             
     def age_check(age):
         age = int(input("Enter you current age: "))
         if age >= 21:
-            print("Accepted")
+            print("Accepted.")
         else:
-            print("Not accepted")
+            print("Not accepted.")
             
     def work_check(work):
         work = input("Enter your current work postion:")
@@ -51,10 +51,9 @@ class Entrycheck:
             print("No")
             
             
-print("Most welcome to India.")
-print("Your Information is submitted, Now you are free visit India.")
-            
 check = Entrycheck()
 check.country()
 check.age_check()
 check.work_check()
+print("Most welcome to India.")
+print("Your Information is submitted, Now you are free visit India.")
