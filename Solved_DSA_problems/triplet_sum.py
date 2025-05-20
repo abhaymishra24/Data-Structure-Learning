@@ -452,4 +452,9 @@ def number(num, res):
                         print("number is of result: ", num[i], num[j], num[k], num[l])
                         return True
                     
+    return False
+num = [8, 5, 6, 7, 9 ,8,10]
+res = 32
+number(num, res)
+r
                 
