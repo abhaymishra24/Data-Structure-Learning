@@ -50,6 +50,10 @@ class Entrycheck:
         else:
             print("No")
             
+            
+print("Most welcome to India.")
+print("Your Information is submitted, Now you are free visit India.")
+            
 check = Entrycheck()
 check.country()
 check.age_check()
