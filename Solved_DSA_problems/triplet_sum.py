@@ -437,4 +437,7 @@ def sum(n, t):
 n = [3,4,5,6,7,8,9]
 t = 25
 sum(n,t)
+
+# write once again this programm - 
+
                 
