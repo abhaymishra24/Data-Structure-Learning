@@ -21,3 +21,36 @@ def identity(nation):
         
 n = input("Enter your Nation: ")
 identity(n)
+
+
+# check once - 
+
+class Entrycheck:
+    
+    def country(name):
+        name = input()
+        if name == 'Australia':
+            print("Yes, acccepted")
+            print("Welcome to India")
+        else:
+            print("No, Not accepted")
+            print("Sorry, Try with other country")
+            
+    def age_check(age):
+        age = int(input())
+        if age >= 21:
+            print("Accepted")
+        else:
+            print("Not accepted")
+            
+    def wor_check(work):
+        work = input()
+        if work == "Software Engineer":
+            print("Yes")
+        else:
+            print("No")
+            
+check = Entrycheck()
+check.country()
+check.age_check()
+check.wor_check()
