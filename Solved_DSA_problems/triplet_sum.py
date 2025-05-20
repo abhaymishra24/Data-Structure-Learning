@@ -440,4 +440,16 @@ sum(n,t)
 
 # write once again this programm - 
 
+def number(num, res):
+    
+    n = len(num)
+    
+    for i in range(n-3):
+        for j in range(i+1, n-2):
+            for k in range(j+1, n-1):
+                for l in range(k+1, n):
+                    if num[i] + num[j] + num[k] + num[l] == res:
+                        print("number is of result: ", num[i], num[j], num[k], num[l])
+                        return True
+                    
                 
