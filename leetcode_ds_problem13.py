@@ -1,6 +1,7 @@
 
 # solve find out angle of triangle -
 
-str = "Abhay Mishra"
+str = " My name is money. I power full in every moment."
 
-print(str[1:])
+print(str.count("m"))
+
