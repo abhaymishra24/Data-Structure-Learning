@@ -192,3 +192,19 @@ class Solution(object):
         return answer
     
     
+    def maxNonIntersectingLongSubstrings(word):
+        n = len(word)
+        result = []
+        i = 0
+        while i < n:
+            found = False
+            for j in range(n, i + 3, -1):
+                if word[i] == word[j - 1] and j - i >= 4:
+                    result.append(word[i:j])
+                    i = j - 1
+                    found = True
+                    break
+            i += 1
+        return len(result)
+    
+    
