@@ -83,20 +83,19 @@
 
 # wrtie to programme to check that the list is palindrome or not -
 
-# def is_palindrome(lst):
+def is_palindrome(lst):
+    lst1 = lst.copy()
+    lst1.reverse()
     
-lst = list(map(int, input()))
+    if lst == lst1:
+        print("Its a palindrome")
+    else:
+        print("Its not a palindrome")
     
-lst1 = lst.copy()
-lst1.reverse()
-    
-if lst == lst1:
-    print("Its a plindrome")
-        
-else:
-    print("Its not a plindrome")
-    
-print(lst)
-print(lst1)
+    print(lst)
+    print(lst1)
+
+# Example call to the function
+is_palindrome([1, 2, 3, 2, 1])
         
  
