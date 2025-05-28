@@ -81,3 +81,22 @@
 # # In this case, the difference between May 15 and May 1 is 14 days.
 
 
+# wrtie to programme to check that the list is palindrome or not -
+
+# def is_palindrome(lst):
+    
+lst = list(map(int, input()))
+    
+lst1 = lst.copy()
+lst1.reverse()
+    
+if lst == lst1:
+    print("Its a plindrome")
+        
+else:
+    print("Its not a plindrome")
+    
+print(lst)
+print(lst1)
+        
+ 
