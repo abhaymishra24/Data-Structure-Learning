@@ -83,15 +83,29 @@ print(delta.days)
 
 # wrtie to programme to check that the list is palindrome or not -(# this to build game on this code - )
 
-def is_palindrome(lst):
-    if lst == lst[::-1]:
-        print("It's a palindrome")
-    else:
-        print("It's not a palindrome")
-    print("Original list:", lst)
-    print("Reversed list:", lst[::-1])
+# def is_palindrome(lst):
+#     if lst == lst[::-1]:
+#         print("It's a palindrome")
+#     else:
+#         print("It's not a palindrome")
+#     print("Original list:", lst)
+#     print("Reversed list:", lst[::-1])
 
-# Take input from user
-user_input = input("Enter list elements separated by spaces: ")
-lst = [int(x) for x in user_input.strip().split()]
-is_palindrome(lst)
+# # Take input from user
+# user_input = input("Enter list elements separated by spaces: ")
+# lst = [int(x) for x in user_input.strip().split()]
+# is_palindrome(lst)
+
+# same code - 
+
+lst = list(map(str, input("Enter list elements separated by spaces: ")))
+lst2 = lst.copy()
+lst2.reverse()
+
+if lst == lst2:
+    print("It's a palindrome")
+else:
+    print("It's not a palindrome")
+    
+print(lst)
+print(lst2)
