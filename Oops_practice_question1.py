@@ -159,3 +159,7 @@ n.d_number(10,5)
 # Here I solve some basic question on oops concepts 
 
 # To be continue
+
+
+
+n = int(input())
