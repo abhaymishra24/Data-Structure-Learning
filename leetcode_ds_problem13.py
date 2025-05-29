@@ -206,5 +206,3 @@ class Solution(object):
                     break
             i += 1
         return len(result)
-    
-    
