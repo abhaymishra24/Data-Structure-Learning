@@ -168,3 +168,7 @@ n.sort()
 
 print(n)
 
+n = list(map(int, input("Enter numbers separated by spaces: ").split()))
+num = set(n)
+
+print(num)
