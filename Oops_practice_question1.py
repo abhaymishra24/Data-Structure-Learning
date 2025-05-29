@@ -162,4 +162,9 @@ n.d_number(10,5)
 
 
 
-n = int(input())
+n = list(map(int, input()))
+
+n.sort()
+
+print(n)
+
