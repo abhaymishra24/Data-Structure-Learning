@@ -20,3 +20,8 @@ if __name__ == "__main__":
     result = count_each_string(input_string)
     print(result)  # Output: {'hello': 2, 'world': 1}
     
+    # Another example
+    input_string2 = "This is a test. This test is simple."
+    result2 = count_each_string(input_string2)
+    print(result2)
+    
