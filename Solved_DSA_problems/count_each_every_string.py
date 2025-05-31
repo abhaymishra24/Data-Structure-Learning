@@ -13,3 +13,10 @@ def count_each_string(s):
             count_dict[word] = 1  # Initialize count if word is new
 
     return count_dict
+
+# Example usage
+if __name__ == "__main__":
+    input_string = "Hello world hello"
+    result = count_each_string(input_string)
+    print(result)  # Output: {'hello': 2, 'world': 1}
+    
