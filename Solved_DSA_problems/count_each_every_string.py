@@ -50,3 +50,25 @@ if __name__ == "__main__":
     result_list2 = count_each_string_in_list(input_list2)
     print(result_list2)  # Output: {'cat': 3, 'dog': 2, 'bird': 1}
     
+    
+def count_each_string_in_list(lst):
+    count_string = {}
+    for string in lst:
+        if string in count_string:
+            count_string[string] += 1
+        else:
+            count_string[string] = 1
+            
+    return count_string
+
+# Example usage
+if __name__ == "__main__":
+    input_list = ["apple", "banana", "apple", "orange", "banana", "apple"]
+    result_list = count_each_string_in_list(input_list)
+    print(result_list)  # Output: {'apple': 3, 'banana': 2, 'orange': 1}
+    
+    # Another example
+    input_list2 = ["cat", "dog", "cat", "bird", "dog", "cat"]
+    result_list2 = count_each_string_in_list(input_list2)
+    print(result_list2)  # Output: {'cat': 3, 'dog': 2, 'bird': 1}
+    
