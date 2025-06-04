@@ -16,15 +16,3 @@ info = {
 }
 
 print(info["name"])
-
-
-# check this code - 
-
-# def number(d):
-    
-#     d = {1,2,3,4,4,5,6,7,7,7,0}
-#     print(set.add(d, 11))
-    
-#     print(d)
-    
-# number(111)
