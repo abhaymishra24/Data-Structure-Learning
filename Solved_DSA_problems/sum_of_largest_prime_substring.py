@@ -24,3 +24,7 @@ class Solution(object):
                         unique_primes.add(num)
         largest_primes = sorted(unique_primes, reverse=True)[:3]
         return sum(largest_primes)
+
+
+# practice again - 
+
