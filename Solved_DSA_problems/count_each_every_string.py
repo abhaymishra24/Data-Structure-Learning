@@ -71,4 +71,8 @@ if __name__ == "__main__":
     input_list2 = ["cat", "dog", "cat", "bird", "dog", "cat"]
     result_list2 = count_each_string_in_list(input_list2)
     print(result_list2)  # Output: {'cat': 3, 'dog': 2, 'bird': 1}
-    
+
+
+# practice again - 
+
+  
