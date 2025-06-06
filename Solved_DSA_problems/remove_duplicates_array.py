@@ -115,3 +115,8 @@ def remove_dubli(num):
 num = [4,5,6,7,3,3,4,5]
 remove = remove_dubli(num)
 print(remove)
+
+
+def again(t):
+    
+    set_test
