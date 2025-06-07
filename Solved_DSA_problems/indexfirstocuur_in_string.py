@@ -66,3 +66,5 @@ haystack = "Hello, welcome to my world."
 needle = "welcome"
 index = find_first_occurrence(haystack, needle)
 print(f"The index of '{needle}' is: {index}")
+
+# practice again - 
