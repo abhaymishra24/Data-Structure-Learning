@@ -73,19 +73,3 @@
 # print(value)
 
 # practice again - 
-
-def sum_calculate(nums, target):
-        n = len(nums)
-
-        for i in range(n-2):
-            for j in range(i+1, n-1):
-                for k in range(j+1, n):
-                    if nums[i] + nums[j] + nums[k] == target:
-                        print(nums[i], nums[j], nums[k])
-                        return True
-                        
-        return False
-
-nums = [1,2,3,4,5,6,7]
-target = 9
-sum_calculate(nums, target)
