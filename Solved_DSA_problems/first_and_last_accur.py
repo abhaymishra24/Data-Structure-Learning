@@ -210,4 +210,6 @@ first, last = first_and_last_occurrence(arr, target)
 print(f"First occurrence of {target} is at index {first}")
 print(f"Last occurrence of {target} is at index {last}")
 
-# practice again - 
+# practice again this problem -
+
+
