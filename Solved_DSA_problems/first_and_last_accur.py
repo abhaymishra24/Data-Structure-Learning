@@ -212,4 +212,43 @@ print(f"Last occurrence of {target} is at index {last}")
 
 # practice again this problem -
 
+def first_and_last_occurrence(arr, target):
+    first = -1
+    last = -1
 
+    for i in range(len(arr)):
+        if arr[i] == target:
+            if first == -1:
+                first = i  # Set first occurrence
+            last = i       # Update last occurrence
+
+    return first, last
+
+arr = [1, 2, 3, 4, 2, 5, 6, 2, 7, 8]
+target = 2
+first, last = first_and_last_occurrence(arr, target)
+print(f"First occurrence of {target} is at index {first}")
+print(f"Last occurrence of {target} is at index {last}")
+
+
+# same code with comment for better understanding -
+def first_and_last_occurrence(arr, target):
+    first = -1  # Initialize first occurrence index
+    last = -1   # Initialize last occurrence index
+
+    for i in range(len(arr)):
+        if arr[i] == target:  # Check if current element matches target
+            if first == -1:
+                first = i  # Set first occurrence if not already set
+            last = i       # Update last occurrence every time we find the target
+
+    return first, last  # Return both indices
+
+arr = [1, 2, 3, 4, 2, 5, 6, 2, 7, 8]
+target = 2      # Element to find occurrences of            
+first, last = first_and_last_occurrence(arr, target)                
+print(f"First occurrence of {target} is at index {first}")  
+
+print(f"Last occurrence of {target} is at index {last}")  # Print last occurrence index
+
+            
