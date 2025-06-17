@@ -41,5 +41,4 @@ def minimumLength(self, s: str) -> int:
         length = sum(arr)
         
         return length
-    
-    
+   
