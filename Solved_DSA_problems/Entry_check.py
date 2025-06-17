@@ -57,3 +57,5 @@ check.age_check()
 check.work_check()
 print("Most welcome to India.")
 print("Your Information is submitted, Now you are free visit India.")
+
+# practice again -
