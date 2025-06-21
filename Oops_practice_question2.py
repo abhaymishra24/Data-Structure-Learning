@@ -109,3 +109,5 @@ else:
     
 print(lst)
 print(lst2)
+
+# solve once agin - 
