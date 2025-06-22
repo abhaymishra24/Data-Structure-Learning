@@ -68,3 +68,4 @@ def convert(inr):
     print(inr, "INR = ", usd, "USD")
     
 convert(1200)
+
