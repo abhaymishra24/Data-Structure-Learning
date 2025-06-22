@@ -26,3 +26,34 @@ def reverse_string(s):
 # Example
 print(reverse_string("Hello"))
 
+# Using Recursion
+
+def reverse_string(s):
+    if len(s) == 0:
+        return s
+    else:
+        return reverse_string(s[1:]) + s[0]
+
+# Example
+print(reverse_string("Hello"))
+
+# Using Stack (List)        
+def reverse_string(s):
+    stack = []
+    for char in s:
+        stack.append(char)
+    reversed_str = ""
+    while stack:
+        reversed_str += stack.pop()
+    return reversed_str 
+
+# Example
+print(reverse_string("Hello"))
+
+
+# Using List Comprehension
+def reverse_string(s):
+    return ''.join([s[i] for i in range(len(s)-1, -1, -1)])
+# Example
+print(reverse_string("Hello"))
+
