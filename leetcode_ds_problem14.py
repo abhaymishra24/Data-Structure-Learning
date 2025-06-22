@@ -51,7 +51,20 @@ def cal_fact(n):
     fact = 1
     for i in range(1, n+1):
         fact *= i
-    print(fact, end = " ")
+    print(fact)
     
 cal_fact(6)
 
+def converter(usd):
+    
+    inr = usd * 83
+    print(usd, "USD = ", inr,"INR")
+    
+converter(20)
+
+def convert(inr):
+    
+    usd = inr / 83
+    print(inr, "INR = ", usd, "USD")
+    
+convert(1200)
