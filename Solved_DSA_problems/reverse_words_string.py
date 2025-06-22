@@ -18,3 +18,11 @@ def reverse_string(s):
 # Example
 print(reverse_string("Hello"))
 
+# Using reversed() Function
+
+def reverse_string(s):
+    return ''.join(reversed(s))
+
+# Example
+print(reverse_string("Hello"))
+
