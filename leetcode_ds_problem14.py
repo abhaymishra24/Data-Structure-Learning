@@ -29,3 +29,29 @@ def cal_num3():
     
 res = cal_num3()
 print(res)
+
+
+def len_str(s):
+    
+    return len(s)
+
+s = len_str("Abhay Mishra")
+print(s)
+
+
+def len_list(elm):
+    
+    print(elm)
+    
+len_list([1,2,3,4,5,"Abay"])
+
+
+def cal_fact(n):
+    
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    print(fact, end = " ")
+    
+cal_fact(6)
+
