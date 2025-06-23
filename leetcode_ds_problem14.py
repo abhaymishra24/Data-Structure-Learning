@@ -69,3 +69,30 @@ def convert(inr):
     
 convert(1200)
 
+def fact_num(n):
+    
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+        print(fact)
+        
+fact_num(4)
+
+def currency(euro):
+    
+    inr = euro * 112
+    print(euro, "EURO = ", inr, ("INR"))
+    
+currency(500)
+
+# Recursion - 
+
+def num(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+        print(fact)
+        
+num(4)
+        
+  
