@@ -20,8 +20,8 @@ In this project, I am working on various Data Structure techniques's questions a
 - Try to develop skills in a variety of areas, including artificial intelligence, Database Management, data science, machine learning, etc.
 - Try to explore new things in technology using the Data Structure and algorithms methods in different programming languages.
 
-### I am practicing and learning by myself - 
+### I am practicing and learning by myself 🧑‍💻
 I aim to learn new solutions and tackle Data Structure methods programming challenges ranging from basic to advanced levels. Learning new methods and features in Data Structure to upskill myself. Learn how to use the Data Structure techniques in different technologies and build real-world projects.
 
 ### Thank you for visiting this repository😊
-Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🤝🧑‍💻🚀
+Feel free to explore my other repositories and reach out to me for collaborations or discussions on new ideas and projects.🧑‍💻🚀
