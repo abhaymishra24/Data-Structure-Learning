@@ -117,3 +117,19 @@ print("Letter frequency:")
 for letter, count in result.items():
     print(f"{letter}: {count}")
 
+
+from collections import Counter
+
+# Input from user
+text = input("Enter a string: ")
+
+# Filter only letters and convert to lowercase
+letters = [char.lower() for char in text if char.isalpha()]
+
+# Count using Counter
+letter_count = Counter(letters)
+
+# Display the result
+for letter, count in letter_count.items():
+    print(f"{letter}: {count}")
+
