@@ -158,10 +158,6 @@ n.d_number(10,5)
 
 # Here I solve some basic question on oops concepts 
 
-# To be continue
-
-
-
 n = list(map(int, input()))
 
 n.sort()
@@ -173,11 +169,11 @@ num = set(n)
 
 print(num)
 
-# practice a question - 
+#  Number 7 -
 
 class Account:
     
-    def account():
+    def account(self):
     
         n = 700
         k = 1200

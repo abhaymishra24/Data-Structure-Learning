@@ -77,4 +77,18 @@ if __name__ == "__main__":
 # practice again -
 
 
- 
+def count_each_string_in_list(lst):
+    count_string = {}
+    for string in lst:
+        if string in count_string:
+            count_string[string] += 1
+        else:
+            count_string[string] = 1
+            
+    return count_string
+
+input_list = ["abccc"]
+result_list = count_each_string_in_list(input_list)
+print(result_list) 
+
+
