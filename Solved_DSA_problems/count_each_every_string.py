@@ -117,6 +117,8 @@ print("Letter frequency:")
 for letter, count in result.items():
     print(f"{letter}: {count}")
 
+# second way to count each letter in a string using collections.Counter -
+
 
 from collections import Counter
 
@@ -133,3 +135,13 @@ letter_count = Counter(letters)
 for letter, count in letter_count.items():
     print(f"{letter}: {count}")
 
+
+def strr():
+    
+    str = input("Enter s string:")
+    for char in str:
+        print(char)
+    else:
+        print("end")
+        
+strr()
