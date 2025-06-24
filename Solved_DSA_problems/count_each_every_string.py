@@ -91,4 +91,29 @@ input_list = ["abccc"]
 result_list = count_each_string_in_list(input_list)
 print(result_list) 
 
+# Program to count each letter in a string
+
+def count_letters(string):
+    letter_count = {}
+    
+    for char in string:
+        if char.isalpha():  # Check if the character is a letter
+            char = char.lower()  # Convert to lowercase for uniform counting
+            if char in letter_count:
+                letter_count[char] += 1
+            else:
+                letter_count[char] = 1
+
+    return letter_count
+
+# Input from user
+user_input = input("Enter a string: ")
+
+# Call the function and display the result
+result = count_letters(user_input)
+
+# Print the letter counts
+print("Letter frequency:")
+for letter, count in result.items():
+    print(f"{letter}: {count}")
 
