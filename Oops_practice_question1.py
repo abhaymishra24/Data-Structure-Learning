@@ -175,17 +175,20 @@ print(num)
 
 # practice a question - 
 
-def account():
+class Account:
     
-    n = 700
-    k = 1200
+    def account():
     
-    if (n+k) > 1500:
-        print("You have enough balance to withdraw.")  
-    else:
-        print("You do not have enough balance to withdraw.")
+        n = 700
+        k = 1200
+    
+        if (n+k) > 1500:
+            print("You have enough balance to withdraw.")  
+        else:
+            print("You do not have enough balance to withdraw.")
          
-    print(n+k)
+        print(n+k)
     
-account()  
+A = Account()  
+A.account()
  
