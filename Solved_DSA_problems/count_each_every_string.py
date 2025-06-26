@@ -136,6 +136,8 @@ for letter, count in letter_count.items():
     print(f"{letter}: {count}")
 
 
+# this programme print each character in a string on a new line - 
+
 def strr():
     
     str = input("Enter s string:")
