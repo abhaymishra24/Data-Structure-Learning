@@ -252,5 +252,3 @@ print(f"First occurrence of {target} is at index {first}")
 print(f"Last occurrence of {target} is at index {last}")  # Print last occurrence index
 
 # practice again - 
-
-def          
