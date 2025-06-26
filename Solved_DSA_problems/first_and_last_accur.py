@@ -252,25 +252,3 @@ print(f"First occurrence of {target} is at index {first}")
 print(f"Last occurrence of {target} is at index {last}")  # Print last occurrence index
 
 # practice again - 
-
-# print longest substring without repeating characters
-
-def longest_substring_without_repeating(s):
-    char_index_map = {}
-    start = 0
-    max_length = 0
-    longest_substring = ""
-
-    for i, char in enumerate(s):
-        if char in char_index_map and char_index_map[char] >= start:
-            start = char_index_map[char] + 1
-        
-        char_index_map[char] = i
-        current_length = i - start + 1
-        
-        if current_length > max_length:
-            max_length = current_length
-            longest_substring = s[start:i + 1]
-
-    return longest_substring
-
