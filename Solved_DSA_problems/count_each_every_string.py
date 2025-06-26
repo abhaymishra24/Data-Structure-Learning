@@ -147,5 +147,3 @@ def strr():
         print("end")
         
 strr()
-
-
