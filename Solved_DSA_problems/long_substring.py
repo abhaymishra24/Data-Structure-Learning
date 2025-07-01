@@ -184,3 +184,4 @@ print(f"The length of the longest substring without repeating characters is: {lo
 # Calculate the current length of the substring and update max_length if it’s greater than the previous max_length.
 
 # This approach ensures we traverse the string only once, making it efficient with a time complexity of O(n).
+
