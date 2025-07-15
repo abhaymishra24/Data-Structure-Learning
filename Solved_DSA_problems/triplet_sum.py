@@ -457,4 +457,24 @@ num = [8, 5, 6, 7, 9 ,8,10]
 res = 32
 number(num, res)
   
-# practice again -   
+# practice again -  
+
+
+def nums_sum(num, r):
+    
+    n = len(num)
+    
+    for i in range(n-3):
+        for j in range(i+1, n-2):
+            for k in range(j+1, n-1):
+                for l in range(k+1, n):
+                    if num[i]+num[j]+num[k]+num[l] == r:
+                        print(f"This is number of r:-{num[i]},{num[j]},{num[k]},{num[l]}.")
+                        return True
+                        
+                        
+    return False
+
+num = [2,3,5,6,8,7,5,4,3]
+r = 16
+nums_sum(num,r)
