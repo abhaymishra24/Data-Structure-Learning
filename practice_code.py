@@ -28,3 +28,4 @@ second_largest = second_largest_sorting(numbers)
 
 # Print the result
 print("Second largest number:", second_largest)
+
