@@ -52,3 +52,4 @@ def count_string_num(words, queries):
 
         return ANS
     
+       

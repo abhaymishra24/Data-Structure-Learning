@@ -27,4 +27,6 @@ class Solution(object):
                 count += 1
                 if count > 1: return False
         return True
+   
+   
     
