@@ -22,4 +22,11 @@ collect()
 
 print("THis is the final number.")
     
+
+def final_number():
+    
+    num = int(input("Enter your final number: "))
+    print(f"Your final number is: {num}. This is your number for final answer and the number is {(num*num)- num}.")
+    
+final_number()
     
