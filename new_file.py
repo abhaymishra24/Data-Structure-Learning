@@ -30,8 +30,6 @@ def final_number():
     
 final_number()
     
-# 
-
 def number():
     
     n,k = map(int, input("ENter your number: ").split())
@@ -42,7 +40,11 @@ def number():
     else:
         print("No this is not correct number .")
         
+    print(f"Your prineted number is {k} and {n}.")
+        
     
 number()
-print("Your prineted number is {k} and {n}.")
+
+
+# write normal program here - 
 
