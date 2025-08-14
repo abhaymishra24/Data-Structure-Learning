@@ -30,3 +30,19 @@ def final_number():
     
 final_number()
     
+# 
+
+def number():
+    
+    n,k = map(int, input("ENter your number: ").split())
+    
+    if n*5 == k:
+        print(f"Yes, this is your find out number{k}.")
+        
+    else:
+        print("No this is not correct number .")
+        
+    
+number()
+print("Your prineted number is {k} and {n}.")
+
