@@ -147,3 +147,7 @@ def strr():
         print("end")
         
 strr()
+
+
+
+# write once again this code - 
