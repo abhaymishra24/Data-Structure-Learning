@@ -31,20 +31,22 @@ print(maxArea(height))
 # time complexity - O(n^2)
 # space complexity - O(1)
 
-# n = len(height)
-
 def maxArea(height):
         n = len(height)
         max_water = 0
 
         for i in range(n+1):
             for j in range(i+1, n):
-
+                
                 w = j - i
                 h = min(height[i], height[j])
                 curr_water = w*h
 
-                max_water = max(max_water, curr_water)
+            max_water = max(max_water, curr_water)
 
         return max_water
+    
+height = [1,8,6,2,5,4,8,3,7]
+print(maxArea(height))
+
         
