@@ -71,3 +71,32 @@ def find_dublicate(num):
 num = [3,1,3,4,2]
 res = find_dublicate(num)
 print(res)
+
+
+# solve this problem again -
+
+write code here for find dublicate number in given list - 
+
+def find_dub(arr):
+    slow = arr[0]
+    fast = arr[0]
+
+    while True:
+        slow = arr[slow]
+        fast = arr[arr[fast]]
+
+        if slow == fast:
+            break
+
+    slow = arr[0]
+
+    while slow != fast:
+
+        slow = arr[slow]
+        fast = arr[fast]
+
+    return slow
+
+arr = [3,3,3,3,3]
+result = find_dub(arr)
+print(result)
