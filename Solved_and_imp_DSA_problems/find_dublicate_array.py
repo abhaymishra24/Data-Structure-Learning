@@ -27,9 +27,7 @@ num = [1, 3, 4, 2, 2]
 res = find_dublicate(num)
 print(res)
 
-3,1,3,4,2
-
-    
+# solve this problem again -
 
 def find_dublicate(num):
     
@@ -52,6 +50,6 @@ def find_dublicate(num):
     return slow
 
 
-num = [1, 3, 4, 2, 2]
+num = [3,1,3,4,2]
 res = find_dublicate(num)
 print(res)
