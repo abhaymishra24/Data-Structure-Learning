@@ -7,24 +7,37 @@
 # Space Complexity: O(1)
 
 
-def find_dublicate(num):
+def find_dublicate(num):                    
     
-    slow = num[0]
+    # intialize both pointers to the start of the array
+    slow = num[0]                          
     fast = num[0]
+    
+    # Move slow pointer by one step and fast pointer by two steps
+    # Continue until they meet inside the cycle
     
     while True:
         slow = num[slow]
         fast = num[num[fast]]
         
+        # When both pointers meet, a cycle is detected
+        # Break the loop
+        # This meeting point is guaranteed due to the presence of a duplicate number
+        
         if slow == fast:
             break
         
+    # To find the entry point of the cycle (duplicate number)
+    # Reset one pointer to the start of the array
+    
     slow = num[0]
     
+    # Move both pointers one step at a time until they meet again
+    # The meeting point is the duplicate number
     while slow != fast:
         slow = num[slow]
         fast = num[fast]
-        
+    # Return the duplicate number
     return slow
 
 
