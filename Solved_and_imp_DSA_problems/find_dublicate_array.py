@@ -75,8 +75,6 @@ print(res)
 
 # solve this problem again -
 
-write code here for find dublicate number in given list - 
-
 def find_dub(arr):
     slow = arr[0]
     fast = arr[0]
