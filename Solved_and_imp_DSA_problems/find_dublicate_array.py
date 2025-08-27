@@ -14,7 +14,7 @@ def find_dublicate(num):
         if slow == fast:
             break
         
-    slow = num[o]
+    slow = num[0]
     
     while slow != fast:
         slow = num[slow]
@@ -23,7 +23,9 @@ def find_dublicate(num):
     return slow
 
 
-num = [2,3,4,5,5,6,7]
+num = [1, 3, 4, 2, 2]
 res = find_dublicate(num)
+print(res)
+
     
 
