@@ -1,5 +1,10 @@
 
-# here we solve to find dublicate in given list - 
+# here we solve to find dublicate number in given list - 
+# Approach - Floyd's Tortoise and Hare (Cycle Detection)
+# Two pointers (slow and fast) are used to detect a cycle in the array.
+# Once a cycle is detected, we find the entry point of the cycle, which is the duplicate number.
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 
 def find_dublicate(num):
