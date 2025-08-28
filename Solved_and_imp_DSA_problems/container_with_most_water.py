@@ -49,4 +49,8 @@ def maxArea(height):
 height = [1,8,6,2,5,4,8,3,7]
 print(maxArea(height))
 
+
+# solve this problem once again using pointer approach -
+
+
         
