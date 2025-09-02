@@ -2,6 +2,9 @@
 # here we solve the problem of finding an element in a rotated sorted array.
 
 # we use binary search technique to solve this problem.
+# Time Complexity: O(log n)
+# Space Complexity: O(1)
+
 
 def search(nums, target):
     left, right = 0, len(nums) - 1
