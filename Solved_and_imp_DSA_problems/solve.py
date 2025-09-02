@@ -1,4 +1,9 @@
 
+# This function finds the length of the longest substring that can be obtained
+# by replacing at most k characters in the given string s.
+
+# Time Complexity: O(n)
+# Space Complexity: O(1) - since the character set is limited (e.g., uppercase English letters)
 
 
 def n_char(s,k):
