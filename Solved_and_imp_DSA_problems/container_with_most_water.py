@@ -51,6 +51,3 @@ print(maxArea(height))
 
 
 # solve this problem once again using pointer approach -
-
-def 
-
