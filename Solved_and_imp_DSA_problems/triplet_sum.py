@@ -478,3 +478,6 @@ def nums_sum(num, r):
 num = [2,3,5,6,8,7,5,4,3]
 r = 16
 nums_sum(num,r)
+
+# practice again -
+
