@@ -46,3 +46,4 @@ def remove_duplicates_set(arr):
 arr = [10, 20, 20, 30, 40, 40, 50]
 result = remove_duplicates_set(arr)
 print(result) 
+
